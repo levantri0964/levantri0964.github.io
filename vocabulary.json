@@ -1,0 +1,2229 @@
+﻿{
+  "groups": [
+    {
+      "id": "toeic_600",
+      "label": "TOEIC 600",
+      "topics": [
+        {
+          "id": "contracts",
+          "label": "1. Contracts",
+          "cards": [
+            {
+              "word": "abide by",
+              "pos": "(v)",
+              "pronunciation": "/əˈbaɪd baɪ/",
+              "hint": "Both companies agree to ______ the terms.",
+              "meaning": "Tuân thủ, tuân theo",
+              "syn": "comply with, conform to, adhere to",
+              "exEn": "Both companies agree to abide by the terms of the agreement.",
+              "exVi": "Cả hai công ty đều đồng ý tuân thủ các điều khoản của thỏa thuận."
+            },
+            {
+              "word": "agreement",
+              "pos": "(n)",
+              "pronunciation": "/əˈɡriːmənt/",
+              "hint": "According to the ______, the caterer will...",
+              "meaning": "Hợp đồng, sự thỏa thuận",
+              "syn": "contract, mutual arrangement",
+              "exEn": "According to the agreement, the caterer will also supply the flowers for the event.",
+              "exVi": "Theo như thỏa thuận, nhà cung cấp tiệc cũng sẽ cung cấp hoa cho sự kiện."
+            },
+            {
+              "word": "assurance",
+              "pos": "(n)",
+              "pronunciation": "/əˈʃʊrəns/",
+              "hint": "The associate gave his ______ that...",
+              "meaning": "Sự bảo đảm, cam đoan",
+              "syn": "guarantee, confidence",
+              "exEn": "The sales associate gave his assurance that the missing keyboard would be replaced.",
+              "exVi": "Nhân viên bán hàng đã đưa ra lời cam đoan rằng chiếc bàn phím bị thiếu sẽ được thay thế."
+            },
+            {
+              "word": "cancellation",
+              "pos": "(n)",
+              "pronunciation": "/ˌkænsəˈleɪʃn/",
+              "hint": "The ______ of her flight caused...",
+              "meaning": "Sự hủy bỏ",
+              "syn": "annulment, stopping",
+              "exEn": "The cancellation of her flight caused her problems for the rest of the week.",
+              "exVi": "Việc hủy chuyến bay đã gây ra nhiều rắc rối cho cô ấy trong suốt thời gian còn lại của tuần."
+            },
+            {
+              "word": "determine",
+              "pos": "(v)",
+              "pronunciation": "/dɪˈtɜːrmɪn/",
+              "hint": "I was unable to ______ if our company...",
+              "meaning": "Xác định, tìm ra",
+              "syn": "find out, influence",
+              "exEn": "After reading the contract, I was still unable to determine if our company was liable for back wages.",
+              "exVi": "Sau khi đọc hợp đồng, tôi vẫn không thể xác định liệu công ty chúng tôi có phải chịu trách nhiệm trả số tiền lương còn nợ hay không."
+            },
+            {
+              "word": "engage",
+              "pos": "(v)",
+              "pronunciation": "/ɪnˈɡeɪdʒ/",
+              "hint": "Before ______ in a contract, both...",
+              "meaning": "Tham gia, thuê, mướn",
+              "syn": "participate, involve",
+              "exEn": "Before engaging in a contract, both parties should think carefully.",
+              "exVi": "Trước khi tham gia vào một hợp đồng, cả hai bên nên cân nhắc thật kỹ."
+            },
+            {
+              "word": "establish",
+              "pos": "(v)",
+              "pronunciation": "/ɪˈstæblɪʃ/",
+              "hint": "The contract helped ______ a clear...",
+              "meaning": "Thiết lập, thành lập",
+              "syn": "institute, bring about",
+              "exEn": "The contract helped establish a clear working relationship between the two parties.",
+              "exVi": "Hợp đồng đã giúp thiết lập một mối quan hệ làm việc rõ ràng giữa hai bên."
+            },
+            {
+              "word": "obligate",
+              "pos": "(v)",
+              "pronunciation": "/ˈɑːblɪɡeɪt/",
+              "hint": "The contractor was ______ by the contract...",
+              "meaning": "Bắt buộc, ép buộc (về pháp lý/bổn phận)",
+              "syn": "bind legally, compel",
+              "exEn": "The contractor was obligated by the contract to work 40 hours a week.",
+              "exVi": "Nhà thầu bị bắt buộc bởi hợp đồng phải làm việc 40 giờ một tuần."
+            },
+            {
+              "word": "provision",
+              "pos": "(n)",
+              "pronunciation": "/prəˈvɪʒn/",
+              "hint": "The ______s of the contract specify...",
+              "meaning": "Điều khoản (hợp đồng), sự dự phòng",
+              "syn": "clause, condition",
+              "exEn": "The provisions of the contract specify that the rent must be paid on the first of each month.",
+              "exVi": "Các điều khoản của hợp đồng quy định rõ tiền thuê nhà phải được thanh toán vào ngày đầu tiên mỗi tháng."
+            },
+            {
+              "word": "resolve",
+              "pos": "(v)",
+              "pronunciation": "/rɪˈzɑːlv/",
+              "hint": "...provide ways to ______ problems.",
+              "meaning": "Giải quyết",
+              "syn": "settle, solve",
+              "exEn": "Well-written contracts usually provide ways to resolve problems when they happen.",
+              "exVi": "Các hợp đồng được soạn thảo tốt thường cung cấp các cách để giải quyết vấn đề khi chúng xảy ra."
+            },
+            {
+              "word": "specific",
+              "pos": "(adj)",
+              "pronunciation": "/spəˈsɪfɪk/",
+              "hint": "The customer's ______ requests were...",
+              "meaning": "Cụ thể, rõ ràng",
+              "syn": "particular, exact",
+              "exEn": "The customer's specific requests were written directly into the contract.",
+              "exVi": "Những yêu cầu cụ thể của khách hàng đã được ghi trực tiếp vào trong hợp đồng."
+            }
+          ]
+        },
+        {
+          "id": "marketing",
+          "label": "2. Marketing",
+          "cards": [
+            {
+              "word": "attract",
+              "pos": "(v)",
+              "pronunciation": "/əˈtrækt/",
+              "hint": "The new ad campaign is designed to ______ younger customers.",
+              "meaning": "Thu hút, lôi cuốn",
+              "syn": "allure, appeal to, draw",
+              "exEn": "The new ad campaign is designed to attract younger customers.",
+              "exVi": "Chiến dịch quảng cáo mới được thiết kế để thu hút khách hàng trẻ tuổi hơn."
+            },
+            {
+              "word": "compare",
+              "pos": "(v)",
+              "pronunciation": "/kəmˈper/",
+              "hint": "It is important to ______ prices before buying a car.",
+              "meaning": "So sánh, đối chiếu",
+              "syn": "contrast, parallel",
+              "exEn": "It is important to compare prices before buying a car.",
+              "exVi": "Việc so sánh giá cả trước khi mua một chiếc ô tô là rất quan trọng."
+            },
+            {
+              "word": "competition",
+              "pos": "(n)",
+              "pronunciation": "/ˌkɑːmpəˈtɪʃn/",
+              "hint": "The company faces stiff ______ from foreign rivals.",
+              "meaning": "Sự cạnh tranh, cuộc thi đấu",
+              "syn": "rivalry, contest",
+              "exEn": "The company faces stiff competition from foreign rivals.",
+              "exVi": "Công ty phải đối mặt với sự cạnh tranh gay gắt từ các đối thủ nước ngoài."
+            },
+            {
+              "word": "consume",
+              "pos": "(v)",
+              "pronunciation": "/kənˈsuːm/",
+              "hint": "The new processor will ______ less power.",
+              "meaning": "Tiêu thụ, tiêu dùng",
+              "syn": "use up, absorb",
+              "exEn": "The new processor will consume less power.",
+              "exVi": "Bộ vi xử lý mới sẽ tiêu thụ ít điện năng hơn."
+            },
+            {
+              "word": "convince",
+              "pos": "(v)",
+              "pronunciation": "/kənˈvɪns/",
+              "hint": "He managed to ______ the committee to back his plan.",
+              "meaning": "Thuyết phục",
+              "syn": "persuade, assure",
+              "exEn": "He managed to convince the committee to back his plan.",
+              "exVi": "Anh ấy đã thành công thuyết phục ủy ban ủng hộ kế hoạch của mình."
+            },
+            {
+              "word": "currently",
+              "pos": "(adv)",
+              "pronunciation": "/ˈkɜːrəntli/",
+              "hint": "The product is ______ unavailable in stores.",
+              "meaning": "Hiện tại, hiện thời",
+              "syn": "now, at present",
+              "exEn": "The product is currently unavailable in stores.",
+              "exVi": "Sản phẩm này hiện tại không có sẵn tại các cửa hàng."
+            },
+            {
+              "word": "fad",
+              "pos": "(n)",
+              "pronunciation": "/fæd/",
+              "hint": "Ripped jeans were just a passing ______.",
+              "meaning": "Trào lưu ngắn hạn, mốt nhất thời",
+              "syn": "craze, trend",
+              "exEn": "Ripped jeans were just a passing fad.",
+              "exVi": "Quần jean rách chỉ là một trào lưu nhất thời thoáng qua."
+            },
+            {
+              "word": "inspiration",
+              "pos": "(n)",
+              "pronunciation": "/ˌɪnspəˈreɪʃn/",
+              "hint": "The artist drew ______ from nature.",
+              "meaning": "Nguồn cảm hứng",
+              "syn": "creativity, stimulation",
+              "exEn": "The artist drew inspiration from nature.",
+              "exVi": "Họa sĩ đã lấy nguồn cảm hứng từ thiên nhiên."
+            },
+            {
+              "word": "market",
+              "pos": "(v / n)",
+              "pronunciation": "/ˈmɑːrkɪt/",
+              "hint": "They need to ______ their new product effectively.",
+              "meaning": "Tiếp thị, bán / Thị trường",
+              "syn": "sell, promote, merchandise",
+              "exEn": "They need to market their new product effectively.",
+              "exVi": "Họ cần phải tiếp thị sản phẩm mới của mình một cách hiệu quả."
+            },
+            {
+              "word": "persuasion",
+              "pos": "(n)",
+              "pronunciation": "/pərˈsweɪʒn/",
+              "hint": "It took a lot of ______ to get him to agree.",
+              "meaning": "Sự thuyết phục",
+              "syn": "inducement, conversion",
+              "exEn": "It took a lot of persuasion to get him to agree.",
+              "exVi": "Phải mất rất nhiều công sức thuyết phục mới khiến anh ấy đồng ý."
+            },
+            {
+              "word": "productive",
+              "pos": "(adj)",
+              "pronunciation": "/prəˈdʌktɪv/",
+              "hint": "The team had a very ______ meeting today.",
+              "meaning": "Năng suất, hiệu quả",
+              "syn": "fruitful, efficient",
+              "exEn": "The team had a very productive meeting today.",
+              "exVi": "Đội ngũ đã có một cuộc họp rất năng suất và hiệu quả ngày hôm nay."
+            },
+            {
+              "word": "satisfaction",
+              "pos": "(n)",
+              "pronunciation": "/ˌsætɪsˈfækʃn/",
+              "hint": "Our goal is complete customer ______.",
+              "meaning": "Sự thỏa mãn, lòng hài lòng",
+              "syn": "contentment, fulfillment",
+              "exEn": "Our goal is complete customer satisfaction.",
+              "exVi": "Mục tiêu của chúng tôi là sự hài lòng tuyệt đối của khách hàng."
+            }
+          ]
+        },
+        {
+          "id": "warranties",
+          "label": "3. Warranties",
+          "cards": [
+            {
+              "word": "characteristic",
+              "pos": "(n)",
+              "pronunciation": "/ˌkærəktəˈrɪstɪk/",
+              "hint": "One ______ of the smartphone is...",
+              "meaning": "Đặc điểm, đặc tính, đặc trưng",
+              "syn": "feature, trait, quality",
+              "exEn": "One characteristic of the store's warranty is that it covers both parts and labor.",
+              "exVi": "Một đặc điểm trong chính sách bảo hành của cửa hàng là nó bao gồm cả linh kiện và tiền công sửa chữa."
+            },
+            {
+              "word": "consequence",
+              "pos": "(n)",
+              "pronunciation": "/ˈkɑːnsəkwens/",
+              "hint": "As a ______ of not registering...",
+              "meaning": "Hậu quả, kết quả, hệ quả",
+              "syn": "result, outcome, effect",
+              "exEn": "As a consequence of not registering the product online, her warranty was voided.",
+              "exVi": "Hậu quả của việc không đăng ký sản phẩm trực tuyến là cô ấy bị mất quyền bảo hành."
+            },
+            {
+              "word": "consider",
+              "pos": "(v)",
+              "pronunciation": "/kənˈsɪdər/",
+              "hint": "You should ______ the terms of...",
+              "meaning": "Cân nhắc, xem xét, suy xét",
+              "syn": "think about, evaluate, ponder",
+              "exEn": "You should consider the terms of the warranty carefully before buying any expensive electronics.",
+              "exVi": "Bạn nên cân nhắc kỹ các điều khoản bảo hành trước khi mua bất kỳ đồ điện tử đắt tiền nào."
+            },
+            {
+              "word": "cover",
+              "pos": "(v)",
+              "pronunciation": "/ˈkʌvər/",
+              "hint": "Does this warranty ______ accidental damage?",
+              "meaning": "Bao gồm, bảo vệ, chi trả (trong bảo hành)",
+              "syn": "include, protect, insure",
+              "exEn": "Does this warranty cover accidental damage or only manufacturer defects?",
+              "exVi": "Gói bảo hành này có bao gồm hư hại do tai nạn không hay chỉ bảo hành lỗi từ nhà sản xuất?"
+            },
+            {
+              "word": "expiration",
+              "pos": "(n)",
+              "pronunciation": "/ˌekspəˈreɪʃn/",
+              "hint": "Please check the ______ date of...",
+              "meaning": "Sự hết hạn, sự hết hiệu lực",
+              "syn": "termination, end, expiry",
+              "exEn": "Please check the expiration date of your warranty before making a repair claim.",
+              "exVi": "Vui lòng kiểm tra ngày hết hạn bảo hành trước khi yêu cầu sửa chữa."
+            },
+            {
+              "word": "frequently",
+              "pos": "(adv)",
+              "pronunciation": "/ˈfriːkwəntli/",
+              "hint": "Appliances ______ come with a one-year...",
+              "meaning": "Thường xuyên, phổ biến",
+              "syn": "often, regularly, repeatedly",
+              "exEn": "Household appliances frequently come with a one-year limited warranty.",
+              "exVi": "Các thiết bị gia dụng thường đi kèm với gói bảo hành giới hạn một năm."
+            },
+            {
+              "word": "imply",
+              "pos": "(v)",
+              "pronunciation": "/ɪmˈplaɪ/",
+              "hint": "The advertisement seems to ______ that...",
+              "meaning": "Ngụ ý, ám chỉ, hàm ý",
+              "syn": "suggest, hint, signify",
+              "exEn": "The advertisement seems to imply that the warranty is unconditional, but it actually has rules.",
+              "exVi": "Quảng cáo dường như ngụ ý rằng chính sách bảo hành là vô điều kiện, nhưng thực ra nó lại có những quy định riêng."
+            },
+            {
+              "word": "promise",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈprɑːmɪs/",
+              "hint": "A warranty is a ______ to...",
+              "meaning": "Lời hứa, sự cam kết; hứa hẹn",
+              "syn": "pledge, commitment, guarantee",
+              "exEn": "A warranty is a seller's promise to stand behind the quality of its products.",
+              "exVi": "Bảo hành là lời cam kết của người bán nhằm đảm bảo cho chất lượng sản phẩm của họ."
+            },
+            {
+              "word": "protect",
+              "pos": "(v)",
+              "pronunciation": "/prəˈtekt/",
+              "hint": "The service plan will ______ your...",
+              "meaning": "Bảo vệ, che chở",
+              "syn": "guard, shield, defend",
+              "exEn": "The extended service plan will protect your computer from unexpected hardware breakdown costs.",
+              "exVi": "Gói dịch vụ mở rộng sẽ bảo vệ máy tính của bạn khỏi các chi phí hỏng hóc phần cứng đột xuất."
+            },
+            {
+              "word": "reputation",
+              "pos": "(n)",
+              "pronunciation": "/ˌrepjuˈteɪʃn/",
+              "hint": "The company has a good ______ for...",
+              "meaning": "Danh tiếng, uy tín",
+              "syn": "fame, status, standing",
+              "exEn": "The company has a good reputation for honoring its warranties without any hassle.",
+              "exVi": "Công ty có danh tiếng tốt trong việc thực hiện đúng cam kết bảo hành mà không gây phiền hà cho khách hàng."
+            },
+            {
+              "word": "require",
+              "pos": "(v)",
+              "pronunciation": "/rɪˈkwaɪər/",
+              "hint": "The policy may ______ you to...",
+              "meaning": "Yêu cầu, đòi hỏi",
+              "syn": "demand, need, ask for",
+              "exEn": "The warranty policy may require you to present the original receipt when requesting a service.",
+              "exVi": "Chính sách bảo hành có thể yêu cầu bạn phải xuất trình hóa đơn gốc khi yêu cầu dịch vụ."
+            },
+            {
+              "word": "variety",
+              "pos": "(n)",
+              "pronunciation": "/vəˈraɪəti/",
+              "hint": "The store offers a ______ of...",
+              "meaning": "Sự đa dạng, nhiều loại",
+              "syn": "diversity, selection, assortment",
+              "exEn": "The store offers a variety of warranty options to suit different customer needs.",
+              "exVi": "Cửa hàng cung cấp nhiều lựa chọn bảo hành khác nhau để phù hợp với nhu cầu của từng khách hàng."
+            }
+          ]
+        },
+        {
+          "id": "business_planning",
+          "label": "4. Business Planning",
+          "cards": [
+            {
+              "word": "address",
+              "pos": "(v)",
+              "pronunciation": "/əˈdres/",
+              "hint": "The business plan must ______ potential financial risks.",
+              "meaning": "Giải quyết, xử lý (vấn đề)",
+              "syn": "tackle, handle, deal with",
+              "exEn": "The business plan must address potential financial risks.",
+              "exVi": "Kế hoạch kinh doanh phải giải quyết các rủi ro tài chính tiềm ẩn."
+            },
+            {
+              "word": "avoid",
+              "pos": "(v)",
+              "pronunciation": "/əˈvɔɪd/",
+              "hint": "Careful planning helps startups ______ common pitfalls.",
+              "meaning": "Tránh, né tránh",
+              "syn": "evade, shun, bypass",
+              "exEn": "Careful planning helps startups avoid common pitfalls.",
+              "exVi": "Lập kế hoạch cẩn thận giúp các công ty khởi nghiệp tránh được những bẫy phổ biến."
+            },
+            {
+              "word": "demonstrate",
+              "pos": "(v)",
+              "pronunciation": "/ˈdemənstreɪt/",
+              "hint": "You need to ______ how your product solves a real problem.",
+              "meaning": "Chứng minh, giải thích, chứng tỏ",
+              "syn": "show, display, prove",
+              "exEn": "You need to demonstrate how your product solves a real problem.",
+              "exVi": "Bạn cần chứng minh cách sản phẩm của mình giải quyết một vấn đề thực tế."
+            },
+            {
+              "word": "develop",
+              "pos": "(v)",
+              "pronunciation": "/dɪˈveləp/",
+              "hint": "The company plans to ______ a new marketing strategy next month.",
+              "meaning": "Phát triển, xây dựng",
+              "syn": "grow, expand, create",
+              "exEn": "The company plans to develop a new marketing strategy next month.",
+              "exVi": "Công ty có kế hoạch phát triển một chiến lược tiếp thị mới vào tháng tới."
+            },
+            {
+              "word": "evaluate",
+              "pos": "(v)",
+              "pronunciation": "/ɪˈvæljueɪt/",
+              "hint": "We should ______ the feasibility of this project before investing.",
+              "meaning": "Đánh giá, định giá",
+              "syn": "assess, appraise, estimate",
+              "exEn": "We should evaluate the feasibility of this project before investing.",
+              "exVi": "Chúng ta nên đánh giá tính khả thi của dự án này trước khi đầu tư."
+            },
+            {
+              "word": "gather",
+              "pos": "(v)",
+              "pronunciation": "/ˈɡæðər/",
+              "hint": "They need to ______ market data before launching the product.",
+              "meaning": "Thu thập, tập hợp",
+              "syn": "collect, accumulate, assemble",
+              "exEn": "They need to gather market data before launching the product.",
+              "exVi": "Họ cần thu thập dữ liệu thị trường trước khi tung sản phẩm ra."
+            },
+            {
+              "word": "offer",
+              "pos": "(v / n)",
+              "pronunciation": "/ˈɔːfər/",
+              "hint": "We ______ customized solutions to meet our clients' needs.",
+              "meaning": "Cung cấp, đưa ra đề nghị / Lời đề nghị",
+              "syn": "provide, propose, present",
+              "exEn": "We offer customized solutions to meet our clients' needs.",
+              "exVi": "Chúng tôi cung cấp các giải pháp tùy chỉnh để đáp ứng nhu cầu của khách hàng."
+            },
+            {
+              "word": "primarily",
+              "pos": "(adv)",
+              "pronunciation": "/praɪˈmerəli/",
+              "hint": "The company focuses ______ on digital services.",
+              "meaning": "Chủ yếu, chính",
+              "syn": "mainly, chiefly, principally",
+              "exEn": "The company focuses primarily on digital services.",
+              "exVi": "Công ty tập trung chủ yếu vào các dịch vụ kỹ thuật số."
+            },
+            {
+              "word": "risk",
+              "pos": "(n / v)",
+              "pronunciation": "/rɪsk/",
+              "hint": "Starting a new business involves a high level of ______.",
+              "meaning": "Rủi ro / Liều mạng, mạo hiểm",
+              "syn": "danger, hazard, jeopardy",
+              "exEn": "Starting a new business involves a high level of risk.",
+              "exVi": "Bắt đầu một doanh nghiệp mới luôn đi kèm với mức độ rủi ro cao."
+            },
+            {
+              "word": "strategy",
+              "pos": "(n)",
+              "hint": "A clear long-term ______ is essential for sustainable growth.",
+              "pronunciation": "/ˈstrætədʒi/",
+              "meaning": "Chiến lược",
+              "syn": "plan, policy, tactic",
+              "exEn": "A clear long-term strategy is essential for sustainable growth.",
+              "exVi": "Một chiến lược dài hạn rõ ràng là thiết yếu cho sự tăng trưởng bền vững."
+            },
+            {
+              "word": "strong",
+              "pos": "(adj)",
+              "pronunciation": "/strɔːŋ/",
+              "hint": "The brand has a ______ presence in the local market.",
+              "meaning": "Mạnh mẽ, vững chắc",
+              "syn": "robust, powerful, solid",
+              "exEn": "The brand has a strong presence in the local market.",
+              "exVi": "Thương hiệu có một sự hiện diện mạnh mẽ tại thị trường địa phương."
+            },
+            {
+              "word": "substitution",
+              "pos": "(n)",
+              "pronunciation": "/ˌsʌbstɪˈtuːʃn/",
+              "hint": "The ______ of automation for manual labor saved them money.",
+              "meaning": "Sự thay thế",
+              "syn": "replacement, exchange, swap",
+              "exEn": "The substitution of automation for manual labor saved them money.",
+              "exVi": "Sự thay thế lao động chân tay bằng tự động hóa đã giúp họ tiết kiệm tiền."
+            }
+          ]
+        },
+        {
+          "id": "conference",
+          "label": "5. Conference",
+          "cards": [
+            {
+              "word": "accommodate",
+              "pos": "(v)",
+              "pronunciation": "/əˈkɑːmədeɪt/",
+              "hint": "The main hall can ______ up to 500 attendees.",
+              "meaning": "Chứa được, đáp ứng nhu cầu, cung cấp chỗ ở",
+              "syn": "house, hold, fit",
+              "exEn": "The main hall can accommodate up to 500 attendees for the keynote speech.",
+              "exVi": "Hội trường chính có thể chứa được tới 500 người tham dự bài phát biểu khai mạc."
+            },
+            {
+              "word": "arrangement",
+              "pos": "(n)",
+              "pronunciation": "/əˈreɪndʒmənt/",
+              "hint": "They made a special ______ for seating.",
+              "meaning": "Sự sắp xếp, sự dàn xếp",
+              "syn": "setup, preparation, planning",
+              "exEn": "They made a special arrangement for seating to ensure proper social distancing.",
+              "exVi": "Họ đã có một sự sắp xếp chỗ ngồi đặc biệt để đảm bảo khoảng cách an toàn."
+            },
+            {
+              "word": "association",
+              "pos": "(n)",
+              "pronunciation": "/əˌsoʊʃiˈeɪʃn/",
+              "hint": "The annual conference is organized by the medical ______.",
+              "meaning": "Hiệp hội, tổ chức, sự liên kết",
+              "syn": "organization, union, alliance",
+              "exEn": "The annual conference is organized by the national medical association.",
+              "exVi": "Hội nghị thường niên được tổ chức bởi hiệp hội y khoa quốc gia."
+            },
+            {
+              "word": "attend",
+              "pos": "(v)",
+              "pronunciation": "/əˈtend/",
+              "hint": "Over two hundred professionals are expected to ______.",
+              "meaning": "Tham dự, có mặt",
+              "syn": "be present at, go to",
+              "exEn": "Over two hundred professionals are expected to attend the workshop.",
+              "exVi": "Hơn hai trăm chuyên gia dự kiến sẽ tham dự buổi hội thảo."
+            },
+            {
+              "word": "get in touch",
+              "pos": "(v)",
+              "pronunciation": "/ɡet ɪn tʌtʃ/",
+              "hint": "Please ______ with the organizer if you need a projector.",
+              "meaning": "Liên lạc, liên hệ với",
+              "syn": "contact, communicate with",
+              "exEn": "Please get in touch with the organizer if you need a projector for your talk.",
+              "exVi": "Vui lòng liên hệ với ban tổ chức nếu bạn cần máy chiếu cho bài phát biểu của mình."
+            },
+            {
+              "word": "hold",
+              "pos": "(v)",
+              "pronunciation": "/hoʊld/",
+              "hint": "The committee decided to ______ the conference in October.",
+              "meaning": "Tổ chức, tiến hành",
+              "syn": "conduct, organize, host",
+              "exEn": "The committee decided to hold the conference in October instead of September.",
+              "exVi": "Ủy ban đã quyết định tổ chức hội nghị vào tháng Mười thay vì tháng Chín."
+            },
+            {
+              "word": "location",
+              "pos": "(n)",
+              "pronunciation": "/loʊˈkeɪʃn/",
+              "hint": "The convention center is an ideal ______.",
+              "meaning": "Địa điểm, vị trí",
+              "syn": "venue, site, place",
+              "exEn": "The convention center is an ideal location for this international event.",
+              "exVi": "Trung tâm hội nghị là một địa điểm lý tưởng cho sự kiện quốc tế này."
+            },
+            {
+              "word": "overcrowded",
+              "pos": "(adj)",
+              "pronunciation": "/ˌoʊvərˈkraʊdɪd/",
+              "hint": "The seminar room became ______ due to high interest.",
+              "meaning": "Quá tải, quá đông đúc",
+              "syn": "jam-packed, congested",
+              "exEn": "The seminar room became overcrowded due to high interest in the topic.",
+              "exVi": "Phòng hội thảo đã trở nên quá đông đúc do lượng người quan tâm lớn đến chủ đề này."
+            },
+            {
+              "word": "register",
+              "pos": "(v / n)",
+              "pronunciation": "/ˈredʒɪstər/",
+              "hint": "Participants must ______ online by next Friday.",
+              "meaning": "Đăng ký / Danh sách đăng ký",
+              "syn": "sign up, enroll, list",
+              "exEn": "Participants must register online by next Friday to get the early-bird discount.",
+              "exVi": "Người tham gia phải đăng ký trực tuyến trước thứ Sáu tới để được giảm giá vé sớm."
+            },
+            {
+              "word": "select",
+              "pos": "(v)",
+              "pronunciation": "/sɪˈlekt/",
+              "hint": "The board will ______ the best proposals for the presentation.",
+              "meaning": "Lựa chọn, tuyển chọn",
+              "syn": "choose, pick, opt for",
+              "exEn": "The board will select the best proposals for the presentation.",
+              "exVi": "Ban giám đốc sẽ lựa chọn những đề xuất tốt nhất cho buổi thuyết trình."
+            },
+            {
+              "word": "session",
+              "pos": "(n)",
+              "pronunciation": "/ˈseʃn/",
+              "hint": "The afternoon ______ will focus on networking.",
+              "meaning": "Phiên họp, buổi học, buổi hội chẩn",
+              "syn": "period, meeting, assembly",
+              "exEn": "The afternoon session will focus on networking and collaboration.",
+              "exVi": "Phiên họp buổi chiều sẽ tập trung vào việc kết nối và hợp tác."
+            },
+            {
+              "word": "take part in",
+              "pos": "(v)",
+              "pronunciation": "/teɪk pɑːrt ɪn/",
+              "hint": "Everyone is encouraged to ______ the discussion.",
+              "meaning": "Tham gia vào",
+              "syn": "participate in, join, engage in",
+              "exEn": "Everyone is encouraged to take part in the panel discussion.",
+              "exVi": "Mọi người đều được khuyến khích tham gia vào buổi thảo luận nhóm."
+            }
+          ]
+        },
+        {
+          "id": "computer_and_internets",
+          "label": "6. Computer and Internet",
+          "cards": [
+            {
+              "word": "access",
+              "pos": "(v / n)",
+              "pronunciation": "/ˈækses/",
+              "hint": "You need a password to ______ the network.",
+              "meaning": "Truy cập, tiếp cận / Quyền truy cập",
+              "syn": "enter, approach, admission",
+              "exEn": "You need a password to access the network.",
+              "exVi": "Bạn cần có mật khẩu để truy cập vào hệ thống mạng."
+            },
+            {
+              "word": "allocate",
+              "pos": "(v)",
+              "pronunciation": "/ˈæləkeɪt/",
+              "hint": "The operating system will ______ memory to each application.",
+              "meaning": "Phân bổ, cấp phát",
+              "syn": "assign, distribute, allot",
+              "exEn": "The operating system will allocate memory to each application dynamically.",
+              "exVi": "Hệ điều hành sẽ phân bổ bộ nhớ cho từng ứng dụng một cách linh hoạt."
+            },
+            {
+              "word": "compatible",
+              "pos": "(adj)",
+              "pronunciation": "/kəmˈpætəbl/",
+              "hint": "This software is not ______ with older operating systems.",
+              "meaning": "Tương thích, hợp nhau",
+              "syn": "matching, harmonious, adaptable",
+              "exEn": "This software is not compatible with older operating systems.",
+              "exVi": "Phần mềm này không tương thích với các hệ điều hành cũ hơn."
+            },
+            {
+              "word": "delete",
+              "pos": "(v)",
+              "pronunciation": "/dɪˈliːt/",
+              "hint": "Be careful not to ______ important system files.",
+              "meaning": "Xóa, loại bỏ",
+              "syn": "erase, remove, wipe out",
+              "exEn": "Be careful not to delete important system files.",
+              "exVi": "Hãy cẩn thận để không xóa các tập tin hệ thống quan trọng."
+            },
+            {
+              "word": "display",
+              "pos": "(v / n)",
+              "pronunciation": "/dɪˈspleɪ/",
+              "hint": "The monitor will ______ an error message.",
+              "meaning": "Hiển thị, trưng bày / Màn hình, sự hiển thị",
+              "syn": "show, exhibit, present",
+              "exEn": "The monitor will display an error message if the connection fails.",
+              "exVi": "Màn hình sẽ hiển thị thông báo lỗi nếu kết nối thất bại."
+            },
+            {
+              "word": "duplicate",
+              "pos": "(v / n)",
+              "pronunciation": "/ˈduːplɪkeɪt/",
+              "hint": "Please do not ______ files unnecessarily to save space.",
+              "meaning": "Sao chép, làm nhân bản / Bản sao",
+              "syn": "copy, replicate, clone",
+              "exEn": "Please do not duplicate files unnecessarily to save disk space.",
+              "exVi": "Vui lòng không sao chép tập tin không cần thiết để tiết kiệm dung lượng đĩa."
+            },
+            {
+              "word": "failure",
+              "pos": "(n)",
+              "pronunciation": "/ˈfeɪljər/",
+              "hint": "A power ______ caused the server to crash.",
+              "meaning": "Sự thất bại, sự hỏng hóc, lỗi hệ thống",
+              "syn": "breakdown, malfunction, fault",
+              "exEn": "A power failure caused the server to crash unexpectedly.",
+              "exVi": "Sự cố mất điện đã khiến máy chủ bị sập đột ngột."
+            },
+            {
+              "word": "figure out",
+              "pos": "(v)",
+              "pronunciation": "/ˈfɪɡjər aʊt/",
+              "hint": "The IT technician is trying to ______ the cause of the glitch.",
+              "meaning": "Tìm hiểu, giải quyết, hiểu ra",
+              "syn": "understand, solve, discover",
+              "exEn": "The IT technician is trying to figure out the cause of the glitch.",
+              "exVi": "Kỹ thuật viên CNTT đang cố gắng tìm ra nguyên nhân của lỗi nhỏ này."
+            },
+            {
+              "word": "ignore",
+              "pos": "(v)",
+              "pronunciation": "/ɪɡˈnɔːr/",
+              "hint": "Do not ______ security alerts from your antivirus.",
+              "meaning": "Bỏ qua, lờ đi",
+              "syn": "disregard, neglect, overlook",
+              "exEn": "Do not ignore security alerts from your antivirus software.",
+              "exVi": "Không được bỏ qua các cảnh báo bảo mật từ phần mềm diệt virus của bạn."
+            },
+            {
+              "word": "search",
+              "pos": "(v / n)",
+              "pronunciation": "/sɜːrtʃ/",
+              "hint": "You can ______ for the document using keywords.",
+              "meaning": "Tìm kiếm / Sự tìm kiếm",
+              "syn": "seek, hunt, look for",
+              "exEn": "You can search for the document using specific keywords.",
+              "exVi": "Bạn có thể tìm kiếm tài liệu đó bằng cách sử dụng các từ khóa cụ thể."
+            },
+            {
+              "word": "shut down",
+              "pos": "(v)",
+              "pronunciation": "/ʃʌt daʊn/",
+              "hint": "Remember to ______ the computer before leaving.",
+              "meaning": "Tắt máy, đóng cửa, ngừng hoạt động",
+              "syn": "turn off, close, deactivate",
+              "exEn": "Remember to shut down the computer before leaving the office.",
+              "exVi": "Hãy nhớ tắt máy tính trước khi rời khỏi văn phòng."
+            },
+            {
+              "word": "warning",
+              "pos": "(n)",
+              "pronunciation": "/ˈwɔːrnɪŋ/",
+              "hint": "The system issued a ______ about low disk space.",
+              "meaning": "Lời cảnh báo, sự báo trước",
+              "syn": "alert, caution, notice",
+              "exEn": "The system issued a warning about low disk space.",
+              "exVi": "Hệ thống đã đưa ra lời cảnh báo về việc dung lượng đĩa còn thấp."
+            }
+          ]
+        },
+        {
+          "id": "office_technology",
+          "label": "7. Office Technology",
+          "cards": [
+            {
+              "word": "affordable",
+              "pos": "(adj)",
+              "pronunciation": "/əˈfɔːrdəbl/",
+              "hint": "The company is looking for an ______ laser printer.",
+              "meaning": "Giá cả phải chăng, có đủ khả năng chi trả",
+              "syn": "inexpensive, reasonable, low-cost",
+              "exEn": "The company is looking for an affordable laser printer for the small office.",
+              "exVi": "Công ty đang tìm kiếm một chiếc máy in laser có giá cả phải chăng cho văn phòng nhỏ."
+            },
+            {
+              "word": "as needed",
+              "pos": "(adv)",
+              "pronunciation": "/æz ˈniːdɪd/",
+              "hint": "The software updates will be installed ______.",
+              "meaning": "Khi cần thiết, khi có nhu cầu",
+              "syn": "as required, whenever necessary",
+              "exEn": "The software updates will be installed as needed to fix system bugs.",
+              "exVi": "Các bản cập nhật phần mềm sẽ được cài đặt khi cần thiết để khắc phục lỗi hệ thống."
+            },
+            {
+              "word": "be in charge of",
+              "pos": "(v)",
+              "pronunciation": "/biː ɪn tʃɑːrdʒ ʌv/",
+              "hint": "She will ______ managing the new IT network.",
+              "meaning": "Chịu trách nhiệm, phụ trách",
+              "syn": "be responsible for, run, oversee",
+              "exEn": "She will be in charge of managing the new IT network.",
+              "exVi": "Cô ấy sẽ phụ trách quản lý hệ thống mạng CNTT mới."
+            },
+            {
+              "word": "capacity",
+              "pos": "(n)",
+              "pronunciation": "/kəˈpæsəti/",
+              "hint": "The server has a storage ______ of 10 terabytes.",
+              "meaning": "Sức chứa, dung tích, công suất",
+              "syn": "volume, storage, ability",
+              "exEn": "The server has a storage capacity of 10 terabytes.",
+              "exVi": "Máy chủ có dung lượng lưu trữ lên tới 10 terabytes."
+            },
+            {
+              "word": "durable",
+              "pos": "(adj)",
+              "pronunciation": "/ˈdʊrəbl/",
+              "hint": "We need to buy ______ office furniture that lasts.",
+              "meaning": "Bền bỉ, lâu bền",
+              "syn": "long-lasting, sturdy, robust",
+              "exEn": "We need to buy durable office equipment that can withstand daily use.",
+              "exVi": "Chúng tôi cần mua thiết bị văn phòng bền bỉ có thể chịu được việc sử dụng hàng ngày."
+            },
+            {
+              "word": "initiative",
+              "pos": "(n)",
+              "pronunciation": "/ɪˈnɪʃətɪv/",
+              "hint": "The IT department took the ______ to upgrade the security.",
+              "meaning": "Sáng kiến, sự chủ động",
+              "syn": "enterprise, resourcefulness, lead",
+              "exEn": "The IT department took the initiative to upgrade the security system.",
+              "exVi": "Bộ phận CNTT đã chủ động đưa ra sáng kiến nâng cấp hệ thống bảo mật."
+            },
+            {
+              "word": "physically",
+              "pos": "(adv)",
+              "pronunciation": "/ˈfɪzɪkli/",
+              "hint": "The backup drives are ______ stored in a secure vault.",
+              "meaning": "Về mặt thể chất, vật lý",
+              "syn": "bodily, materially",
+              "exEn": "The backup drives are physically stored in a secure server room vault.",
+              "exVi": "Các ổ đĩa sao lưu được lưu trữ vật lý trong một hầm phòng máy chủ an toàn."
+            },
+            {
+              "word": "provider",
+              "pos": "(n)",
+              "pronunciation": "/prəˈvaɪdər/",
+              "hint": "They switched to a new internet service ______.",
+              "meaning": "Nhà cung cấp",
+              "syn": "supplier, vendor, purveyor",
+              "exEn": "They switched to a new internet service provider to get faster speeds.",
+              "exVi": "Họ đã chuyển sang một nhà cung cấp dịch vụ internet mới để có tốc độ nhanh hơn."
+            },
+            {
+              "word": "recur",
+              "pos": "(v)",
+              "pronunciation": "/rɪˈkɜːr/",
+              "hint": "The system glitch seems to ______ every Monday.",
+              "meaning": "Lặp lại, tái diễn",
+              "syn": "repeat, return, reappear",
+              "exEn": "The system glitch seems to recur every time we run the update.",
+              "exVi": "Lỗi hệ thống dường như tái diễn mỗi khi chúng tôi chạy bản cập nhật."
+            },
+            {
+              "word": "reduction",
+              "pos": "(n)",
+              "pronunciation": "/rɪˈdʌkʃn/",
+              "hint": "Cloud computing led to a big ______ in paper costs.",
+              "meaning": "Sự giảm bớt, sự thu nhỏ",
+              "syn": "decrease, drop, cut",
+              "exEn": "The installation of new copiers led to a significant reduction in paper waste.",
+              "exVi": "Việc lắp đặt các máy photocopy mới đã giúp giảm đáng kể lượng giấy lãng phí."
+            },
+            {
+              "word": "stay on top of",
+              "pos": "(v)",
+              "pronunciation": "/steɪ ɑːn tɑːp ʌv/",
+              "hint": "It is important to ______ new tech trends.",
+              "meaning": "Nắm bắt thông tin kịp thời, kiểm soát tốt",
+              "syn": "keep up with, be informed about",
+              "exEn": "The IT manager works hard to stay on top of the latest technology trends.",
+              "exVi": "Quản lý CNTT làm việc chăm chỉ để luôn nắm bắt kịp thời các xu hướng công nghệ mới nhất."
+            },
+            {
+              "word": "stock",
+              "pos": "(n / v)",
+              "pronunciation": "/stɑːk/",
+              "hint": "The office manager needs to ______ up on ink cartridges.",
+              "meaning": "Kho dự trữ, hàng hóa / Tích trữ",
+              "syn": "supply, inventory, store",
+              "exEn": "We keep a large stock of toner cartridges in the supply closet.",
+              "exVi": "Chúng tôi giữ một lượng lớn hộp mực dự trữ trong tủ đồ dùng."
+            }
+          ]
+        },
+        {
+          "id": "office_procedures",
+          "label": "8.Office Procedures",
+          "cards": [
+            {
+              "word": "appreciation",
+              "pos": "(n)",
+              "pronunciation": "/əˌpriːʃiˈeɪʃn/",
+              "hint": "The manager expressed her ______ for everyone's hard work.",
+              "meaning": "Sự đánh giá cao, lòng cảm kích",
+              "syn": "gratitude, recognition, thanks",
+              "exEn": "The manager expressed her appreciation for everyone's hard work.",
+              "exVi": "Quản lý bày tỏ sự cảm kích đối với công việc chăm chỉ của mọi người."
+            },
+            {
+              "word": "be made of",
+              "pos": "(v)",
+              "pronunciation": "/biː meɪd əv/",
+              "hint": "The new office desks are ______ recycled materials.",
+              "meaning": "Được làm từ",
+              "syn": "consist of, be composed of",
+              "exEn": "The new office desks are made of recycled materials.",
+              "exVi": "Những chiếc bàn văn phòng mới được làm từ vật liệu tái chế."
+            },
+            {
+              "word": "bring in",
+              "pos": "(v)",
+              "pronunciation": "/brɪŋ ɪn/",
+              "hint": "The company plans to ______ a consultant to improve its procedures.",
+              "meaning": "Đưa vào, mời vào, thuê",
+              "syn": "introduce, hire, involve",
+              "exEn": "The company decided to bring in a consultant to improve its office procedures.",
+              "exVi": "Công ty quyết định mời một chuyên gia tư vấn để cải thiện các quy trình văn phòng."
+            },
+            {
+              "word": "casually",
+              "pos": "(adv)",
+              "pronunciation": "/ˈkæʒuəli/",
+              "hint": "Employees are allowed to dress ______ on Fridays.",
+              "meaning": "Một cách thoải mái, không trang trọng",
+              "syn": "informally, relaxedly",
+              "exEn": "Employees are allowed to dress casually on Fridays.",
+              "exVi": "Nhân viên được phép ăn mặc thoải mái vào thứ Sáu."
+            },
+            {
+              "word": "code",
+              "pos": "(n)",
+              "pronunciation": "/koʊd/",
+              "hint": "Employees must follow the company's ______ of conduct.",
+              "meaning": "Bộ quy tắc, quy chuẩn",
+              "syn": "rules, regulations, standards",
+              "exEn": "All employees must follow the company's code of conduct.",
+              "exVi": "Tất cả nhân viên phải tuân theo bộ quy tắc ứng xử của công ty."
+            },
+            {
+              "word": "expose",
+              "pos": "(v)",
+              "pronunciation": "/ɪkˈspoʊz/",
+              "hint": "The training will ______ employees to new office procedures.",
+              "meaning": "Cho tiếp xúc với, làm quen với",
+              "syn": "introduce, reveal, familiarize",
+              "exEn": "The training will expose employees to new office procedures.",
+              "exVi": "Khóa đào tạo sẽ giúp nhân viên làm quen với các quy trình văn phòng mới."
+            },
+            {
+              "word": "glimpse",
+              "pos": "(n / v)",
+              "pronunciation": "/ɡlɪmps/",
+              "hint": "I caught a ______ of the new office layout.",
+              "meaning": "Cái nhìn thoáng qua / Nhìn thoáng qua",
+              "syn": "look, glance, sight",
+              "exEn": "I caught a glimpse of the new office layout during the meeting.",
+              "exVi": "Tôi đã nhìn thoáng qua cách bố trí văn phòng mới trong cuộc họp."
+            },
+            {
+              "word": "out of",
+              "pos": "(prep)",
+              "pronunciation": "/aʊt əv/",
+              "hint": "We are ______ paper, so please order more.",
+              "meaning": "Hết, không còn",
+              "syn": "without, lacking, depleted of",
+              "exEn": "We are out of printer paper and need to order more.",
+              "exVi": "Chúng ta đã hết giấy in và cần đặt thêm."
+            },
+            {
+              "word": "outdated",
+              "pos": "(adj)",
+              "pronunciation": "/ˌaʊtˈdeɪtɪd/",
+              "hint": "The company's filing system is ______ and needs to be replaced.",
+              "meaning": "Lỗi thời, cũ kỹ",
+              "syn": "obsolete, old-fashioned, antiquated",
+              "exEn": "The company's filing system is outdated and needs to be replaced.",
+              "exVi": "Hệ thống lưu trữ hồ sơ của công ty đã lỗi thời và cần được thay thế."
+            },
+            {
+              "word": "practice",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈpræktɪs/",
+              "hint": "The company has a good safety ______ in place.",
+              "meaning": "Thực hành, thông lệ / Thực hành",
+              "syn": "procedure, habit, exercise",
+              "exEn": "The company has a strict safety practice in place.",
+              "exVi": "Công ty có một quy trình an toàn nghiêm ngặt."
+            },
+            {
+              "word": "reinforce",
+              "pos": "(v)",
+              "pronunciation": "/ˌriːɪnˈfɔːrs/",
+              "hint": "The manager held a meeting to ______ the importance of following procedures.",
+              "meaning": "Củng cố, tăng cường, nhấn mạnh",
+              "syn": "strengthen, support, emphasize",
+              "exEn": "The manager held a meeting to reinforce the importance of following procedures.",
+              "exVi": "Quản lý tổ chức một cuộc họp để nhấn mạnh tầm quan trọng của việc tuân thủ quy trình."
+            },
+            {
+              "word": "verbally",
+              "pos": "(adv)",
+              "pronunciation": "/ˈvɜːrbəli/",
+              "hint": "The instructions were given ______ before the meeting.",
+              "meaning": "Bằng lời nói, bằng miệng",
+              "syn": "orally, by word of mouth",
+              "exEn": "The supervisor explained the new procedures verbally to the staff.",
+              "exVi": "Người giám sát giải thích các quy trình mới bằng lời nói cho nhân viên."
+            }
+          ]
+        },
+        {
+          "id": "electronics",
+          "label": "9. Electronics",
+          "cards": [
+            {
+              "word": "disk",
+              "pos": "(n)",
+              "pronunciation": "/dɪsk/",
+              "hint": "The computer's hard ______ is almost full.",
+              "meaning": "Đĩa, ổ đĩa",
+              "syn": "drive, storage device",
+              "exEn": "The computer's hard disk is almost full.",
+              "exVi": "Ổ cứng của máy tính gần đầy."
+            },
+            {
+              "word": "facilitate",
+              "pos": "(v)",
+              "pronunciation": "/fəˈsɪlɪteɪt/",
+              "hint": "The new system will ______ communication between employees.",
+              "meaning": "Tạo điều kiện, làm cho dễ dàng hơn",
+              "syn": "enable, assist, ease",
+              "exEn": "The new software will facilitate communication between employees.",
+              "exVi": "Phần mềm mới sẽ tạo điều kiện thuận lợi cho việc giao tiếp giữa các nhân viên."
+            },
+            {
+              "word": "network",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈnetwɜːrk/",
+              "hint": "All computers in the office are connected to the same ______.",
+              "meaning": "Mạng lưới, mạng máy tính / Kết nối mạng",
+              "syn": "system, connection, grid",
+              "exEn": "All computers in the office are connected to the same network.",
+              "exVi": "Tất cả máy tính trong văn phòng đều được kết nối với cùng một mạng."
+            },
+            {
+              "word": "popularity",
+              "pos": "(n)",
+              "pronunciation": "/ˌpɑːpjuˈlærəti/",
+              "hint": "The smartphone has gained great ______ among young users.",
+              "meaning": "Sự phổ biến, mức độ được ưa chuộng",
+              "syn": "fame, acceptance, demand",
+              "exEn": "The smartphone has gained great popularity among young users.",
+              "exVi": "Chiếc điện thoại thông minh đã trở nên rất phổ biến đối với người dùng trẻ."
+            },
+            {
+              "word": "process",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈprɑːses/",
+              "hint": "The computer can ______ thousands of requests per second.",
+              "meaning": "Quy trình, quá trình / Xử lý",
+              "syn": "procedure, method, handle",
+              "exEn": "The computer can process thousands of requests per second.",
+              "exVi": "Máy tính có thể xử lý hàng nghìn yêu cầu mỗi giây."
+            },
+            {
+              "word": "replace",
+              "pos": "(v)",
+              "pronunciation": "/rɪˈpleɪs/",
+              "hint": "We need to ______ the old monitor with a new one.",
+              "meaning": "Thay thế",
+              "syn": "substitute, exchange, renew",
+              "exEn": "We need to replace the old monitor with a newer model.",
+              "exVi": "Chúng ta cần thay thế màn hình cũ bằng một mẫu mới hơn."
+            },
+            {
+              "word": "revolution",
+              "pos": "(n)",
+              "pronunciation": "/ˌrevəˈluːʃn/",
+              "hint": "The smartphone caused a ______ in mobile technology.",
+              "meaning": "Cuộc cách mạng, sự thay đổi lớn",
+              "syn": "transformation, breakthrough, innovation",
+              "exEn": "The smartphone caused a revolution in mobile technology.",
+              "exVi": "Điện thoại thông minh đã tạo ra một cuộc cách mạng trong công nghệ di động."
+            },
+            {
+              "word": "sharp",
+              "pos": "(adj)",
+              "pronunciation": "/ʃɑːrp/",
+              "hint": "The monitor displays images with ______ details.",
+              "meaning": "Sắc nét, rõ ràng",
+              "syn": "clear, crisp, distinct",
+              "exEn": "The new monitor produces sharp and detailed images.",
+              "exVi": "Màn hình mới hiển thị hình ảnh sắc nét và chi tiết."
+            },
+            {
+              "word": "skill",
+              "pos": "(n)",
+              "pronunciation": "/skɪl/",
+              "hint": "Computer programming is an important ______ for this position.",
+              "meaning": "Kỹ năng",
+              "syn": "ability, expertise, proficiency",
+              "exEn": "Computer programming is an important skill for this position.",
+              "exVi": "Lập trình máy tính là một kỹ năng quan trọng đối với vị trí này."
+            },
+            {
+              "word": "software",
+              "pos": "(n)",
+              "pronunciation": "/ˈsɔːftwer/",
+              "hint": "The company installed new accounting ______.",
+              "meaning": "Phần mềm",
+              "syn": "program, application, system",
+              "exEn": "The company installed new accounting software on all office computers.",
+              "exVi": "Công ty đã cài đặt phần mềm kế toán mới trên tất cả máy tính văn phòng."
+            },
+            {
+              "word": "store",
+              "pos": "(v)",
+              "pronunciation": "/stɔːr/",
+              "hint": "The device can ______ large amounts of data.",
+              "meaning": "Lưu trữ",
+              "syn": "save, keep, preserve",
+              "exEn": "The device can store large amounts of data.",
+              "exVi": "Thiết bị có thể lưu trữ một lượng lớn dữ liệu."
+            },
+            {
+              "word": "technically",
+              "pos": "(adv)",
+              "pronunciation": "/ˈteknɪkli/",
+              "hint": "The device is ______ advanced but difficult to use.",
+              "meaning": "Về mặt kỹ thuật",
+              "syn": "from a technical standpoint, mechanically",
+              "exEn": "The device is technically advanced but difficult to operate.",
+              "exVi": "Thiết bị tiên tiến về mặt kỹ thuật nhưng khó vận hành."
+            }
+          ]
+        },
+        {
+          "id": "correspondence",
+          "label": "10. Correspondence",
+          "cards": [
+            {
+              "word": "assemble",
+              "pos": "(v)",
+              "pronunciation": "/əˈsembl/",
+              "hint": "Please ______ the documents before sending them.",
+              "meaning": "Tập hợp, lắp ráp",
+              "syn": "collect, gather, put together",
+              "exEn": "Please assemble all the documents before sending the package.",
+              "exVi": "Vui lòng tập hợp tất cả tài liệu trước khi gửi gói hàng."
+            },
+            {
+              "word": "beforehand",
+              "pos": "(adv)",
+              "pronunciation": "/bɪˈfɔːrhænd/",
+              "hint": "Please let me know ______ if you cannot attend the meeting.",
+              "meaning": "Trước, từ trước",
+              "syn": "in advance, previously, earlier",
+              "exEn": "Please let me know beforehand if you cannot attend the meeting.",
+              "exVi": "Vui lòng báo cho tôi trước nếu bạn không thể tham dự cuộc họp."
+            },
+            {
+              "word": "complication",
+              "pos": "(n)",
+              "pronunciation": "/ˌkɑːmplɪˈkeɪʃn/",
+              "hint": "There was a slight ______ with the delivery.",
+              "meaning": "Sự phức tạp, vấn đề phát sinh",
+              "syn": "difficulty, problem, obstacle",
+              "exEn": "There was a slight complication with the delivery of the documents.",
+              "exVi": "Có một vấn đề nhỏ phát sinh trong việc giao tài liệu."
+            },
+            {
+              "word": "courier",
+              "pos": "(n)",
+              "pronunciation": "/ˈkʊriər/",
+              "hint": "The documents were sent by ______.",
+              "meaning": "Người chuyển phát, dịch vụ chuyển phát",
+              "syn": "messenger, delivery service",
+              "exEn": "The documents were sent by courier to the client's office.",
+              "exVi": "Các tài liệu được gửi bằng dịch vụ chuyển phát đến văn phòng khách hàng."
+            },
+            {
+              "word": "express",
+              "pos": "(adj / v)",
+              "pronunciation": "/ɪkˈspres/",
+              "hint": "We sent the contract by ______ mail.",
+              "meaning": "Hỏa tốc, nhanh / Bày tỏ",
+              "syn": "fast, rapid, state",
+              "exEn": "We sent the contract by express mail to ensure quick delivery.",
+              "exVi": "Chúng tôi gửi hợp đồng bằng thư hỏa tốc để đảm bảo giao hàng nhanh."
+            },
+            {
+              "word": "fold",
+              "pos": "(v)",
+              "pronunciation": "/foʊld/",
+              "hint": "Please ______ the letter and put it in the envelope.",
+              "meaning": "Gấp",
+              "syn": "bend, crease, double",
+              "exEn": "Please fold the letter and put it inside the envelope.",
+              "exVi": "Vui lòng gấp lá thư và đặt nó vào trong phong bì."
+            },
+            {
+              "word": "layout",
+              "pos": "(n)",
+              "pronunciation": "/ˈleɪaʊt/",
+              "hint": "The designer changed the ______ of the company newsletter.",
+              "meaning": "Bố cục, cách trình bày",
+              "syn": "design, arrangement, format",
+              "exEn": "The designer changed the layout of the company newsletter.",
+              "exVi": "Nhà thiết kế đã thay đổi bố cục của bản tin công ty."
+            },
+            {
+              "word": "mention",
+              "pos": "(v / n)",
+              "pronunciation": "/ˈmenʃn/",
+              "hint": "Please ______ the meeting date in your reply.",
+              "meaning": "Đề cập, nhắc đến / Sự đề cập",
+              "syn": "refer to, note, state",
+              "exEn": "Please mention the meeting date in your reply.",
+              "exVi": "Vui lòng đề cập đến ngày họp trong thư trả lời của bạn."
+            },
+            {
+              "word": "petition",
+              "pos": "(n / v)",
+              "pronunciation": "/pəˈtɪʃn/",
+              "hint": "Employees signed a ______ asking for better working conditions.",
+              "meaning": "Đơn kiến nghị / Kiến nghị",
+              "syn": "request, appeal, application",
+              "exEn": "The employees submitted a petition asking for better working conditions.",
+              "exVi": "Các nhân viên đã nộp một đơn kiến nghị yêu cầu điều kiện làm việc tốt hơn."
+            },
+            {
+              "word": "proof",
+              "pos": "(n)",
+              "pronunciation": "/pruːf/",
+              "hint": "Please check the final ______ before the brochure is printed.",
+              "meaning": "Bản thử, bằng chứng",
+              "syn": "evidence, verification, draft",
+              "exEn": "Please check the final proof before the brochure is printed.",
+              "exVi": "Vui lòng kiểm tra bản thử cuối cùng trước khi brochure được in."
+            },
+            {
+              "word": "register",
+              "pos": "(v / n)",
+              "pronunciation": "/ˈredʒɪstər/",
+              "hint": "Please ______ for the conference before Friday.",
+              "meaning": "Đăng ký / Sổ đăng ký",
+              "syn": "enroll, record, sign up",
+              "exEn": "Please register for the conference before Friday.",
+              "exVi": "Vui lòng đăng ký tham dự hội nghị trước thứ Sáu."
+            },
+            {
+              "word": "revise",
+              "pos": "(v)",
+              "pronunciation": "/rɪˈvaɪz/",
+              "hint": "The manager asked me to ______ the report.",
+              "meaning": "Sửa đổi, chỉnh sửa",
+              "syn": "edit, modify, amend",
+              "exEn": "The manager asked me to revise the report before sending it.",
+              "exVi": "Quản lý yêu cầu tôi chỉnh sửa báo cáo trước khi gửi."
+            }
+          ]
+        },
+        {
+          "id": "job_ads_recruitment",
+          "label": "11. Job Ads and Recruitment",
+          "cards": [
+            {
+              "word": "abundant",
+              "pos": "(adj)",
+              "pronunciation": "/əˈbʌndənt/",
+              "hint": "There are ______ opportunities for experienced engineers.",
+              "meaning": "Dồi dào, phong phú",
+              "syn": "plentiful, ample, plentiful",
+              "exEn": "There are abundant job opportunities for experienced engineers.",
+              "exVi": "Có rất nhiều cơ hội việc làm dành cho các kỹ sư có kinh nghiệm."
+            },
+            {
+              "word": "accomplishment",
+              "pos": "(n)",
+              "pronunciation": "/əˈkɑːmplɪʃmənt/",
+              "hint": "Please list your major professional ______ on your résumé.",
+              "meaning": "Thành tựu, thành tích",
+              "syn": "achievement, success, attainment",
+              "exEn": "Please list your major professional accomplishments on your résumé.",
+              "exVi": "Vui lòng liệt kê những thành tựu nghề nghiệp chính trong CV của bạn."
+            },
+            {
+              "word": "bring together",
+              "pos": "(v)",
+              "pronunciation": "/brɪŋ təˈɡeðər/",
+              "hint": "The event will ______ employers and job seekers.",
+              "meaning": "Kết nối, tập hợp lại",
+              "syn": "unite, gather, connect",
+              "exEn": "The career fair will bring together employers and job seekers.",
+              "exVi": "Hội chợ việc làm sẽ kết nối các nhà tuyển dụng và người tìm việc."
+            },
+            {
+              "word": "candidate",
+              "pos": "(n)",
+              "pronunciation": "/ˈkændɪdeɪt/",
+              "hint": "The company interviewed five ______ for the position.",
+              "meaning": "Ứng viên",
+              "syn": "applicant, contender, prospect",
+              "exEn": "The company interviewed five candidates for the position.",
+              "exVi": "Công ty đã phỏng vấn năm ứng viên cho vị trí này."
+            },
+            {
+              "word": "come up with",
+              "pos": "(v)",
+              "pronunciation": "/kʌm ʌp wɪð/",
+              "hint": "The team needs to ______ a better recruitment strategy.",
+              "meaning": "Nghĩ ra, đưa ra",
+              "syn": "devise, develop, think of",
+              "exEn": "The HR team came up with a new recruitment strategy.",
+              "exVi": "Đội ngũ nhân sự đã đưa ra một chiến lược tuyển dụng mới."
+            },
+            {
+              "word": "commensurate",
+              "pos": "(adj)",
+              "pronunciation": "/kəˈmenʃərət/",
+              "hint": "The salary will be ______ with your experience.",
+              "meaning": "Tương xứng, tương ứng",
+              "syn": "proportional, corresponding, equivalent",
+              "exEn": "The salary will be commensurate with your experience and qualifications.",
+              "exVi": "Mức lương sẽ tương xứng với kinh nghiệm và trình độ của bạn."
+            },
+            {
+              "word": "match",
+              "pos": "(v / n)",
+              "pronunciation": "/mætʃ/",
+              "hint": "The recruiter tried to ______ candidates with suitable positions.",
+              "meaning": "Phù hợp, ghép / Sự phù hợp",
+              "syn": "fit, correspond, pair",
+              "exEn": "The recruiter matched the candidate with a suitable position.",
+              "exVi": "Nhà tuyển dụng đã ghép ứng viên với một vị trí phù hợp."
+            },
+            {
+              "word": "profile",
+              "pos": "(n)",
+              "pronunciation": "/ˈproʊfaɪl/",
+              "hint": "The recruiter reviewed the candidate's professional ______.",
+              "meaning": "Hồ sơ, thông tin cá nhân/nghề nghiệp",
+              "syn": "record, background, résumé",
+              "exEn": "The recruiter reviewed the candidate's professional profile.",
+              "exVi": "Nhà tuyển dụng đã xem xét hồ sơ nghề nghiệp của ứng viên."
+            },
+            {
+              "word": "qualification",
+              "pos": "(n)",
+              "pronunciation": "/ˌkwɑːlɪfɪˈkeɪʃn/",
+              "hint": "A university degree is an important ______ for this job.",
+              "meaning": "Trình độ, bằng cấp, năng lực chuyên môn",
+              "syn": "credential, certification, competence",
+              "exEn": "A university degree is an important qualification for this position.",
+              "exVi": "Bằng đại học là một yêu cầu về trình độ quan trọng đối với vị trí này."
+            },
+            {
+              "word": "recruit",
+              "pos": "(v / n)",
+              "pronunciation": "/rɪˈkruːt/",
+              "hint": "The company plans to ______ several software engineers.",
+              "meaning": "Tuyển dụng / Người mới được tuyển",
+              "syn": "hire, employ, enlist",
+              "exEn": "The company plans to recruit several software engineers this year.",
+              "exVi": "Công ty dự định tuyển dụng một số kỹ sư phần mềm trong năm nay."
+            },
+            {
+              "word": "submit",
+              "pos": "(v)",
+              "pronunciation": "/səbˈmɪt/",
+              "hint": "Please ______ your résumé before the application deadline.",
+              "meaning": "Nộp, gửi",
+              "syn": "send, present, provide",
+              "exEn": "Please submit your résumé before the application deadline.",
+              "exVi": "Vui lòng nộp CV trước hạn chót ứng tuyển."
+            },
+            {
+              "word": "time-consuming",
+              "pos": "(adj)",
+              "pronunciation": "/ˈtaɪm kənˌsuːmɪŋ/",
+              "hint": "Reviewing hundreds of applications can be ______.",
+              "meaning": "Tốn thời gian",
+              "syn": "lengthy, slow, laborious",
+              "exEn": "Reviewing hundreds of applications can be very time-consuming.",
+              "exVi": "Xem xét hàng trăm đơn ứng tuyển có thể rất tốn thời gian."
+            }
+          ]
+        },
+        {
+          "id": "applying_interviewing",
+          "label": "12. Applying and Interviewing",
+          "cards": [
+            {
+              "word": "ability",
+              "pos": "(n)",
+              "pronunciation": "/əˈbɪləti/",
+              "hint": "The position requires the ______ to work independently.",
+              "meaning": "Khả năng, năng lực",
+              "syn": "capability, capacity, competence",
+              "exEn": "The position requires the ability to work independently.",
+              "exVi": "Vị trí này yêu cầu khả năng làm việc độc lập."
+            },
+            {
+              "word": "apply",
+              "pos": "(v)",
+              "pronunciation": "/əˈplaɪ/",
+              "hint": "She plans to ______ for the marketing position.",
+              "meaning": "Ứng tuyển, nộp đơn",
+              "syn": "submit an application, seek, request",
+              "exEn": "She plans to apply for the marketing position.",
+              "exVi": "Cô ấy dự định ứng tuyển vào vị trí marketing."
+            },
+            {
+              "word": "background",
+              "pos": "(n)",
+              "pronunciation": "/ˈbækɡraʊnd/",
+              "hint": "The candidate has a strong technical ______.",
+              "meaning": "Nền tảng, kinh nghiệm",
+              "syn": "experience, history, training",
+              "exEn": "The candidate has a strong technical background in software development.",
+              "exVi": "Ứng viên có nền tảng kỹ thuật vững chắc về phát triển phần mềm."
+            },
+            {
+              "word": "be ready for",
+              "pos": "(v)",
+              "pronunciation": "/biː ˈredi fɔːr/",
+              "hint": "You should ______ the interview questions.",
+              "meaning": "Sẵn sàng cho",
+              "syn": "be prepared for, prepare for",
+              "exEn": "You should be ready for questions about your previous experience.",
+              "exVi": "Bạn nên sẵn sàng cho các câu hỏi về kinh nghiệm trước đây của mình."
+            },
+            {
+              "word": "call in",
+              "pos": "(v)",
+              "pronunciation": "/kɔːl ɪn/",
+              "hint": "The manager decided to ______ several candidates for interviews.",
+              "meaning": "Mời đến, triệu tập",
+              "syn": "invite, summon, ask to come",
+              "exEn": "The manager called in several candidates for final interviews.",
+              "exVi": "Quản lý đã mời một số ứng viên đến phỏng vấn vòng cuối."
+            },
+            {
+              "word": "confidence",
+              "pos": "(n)",
+              "pronunciation": "/ˈkɑːnfɪdəns/",
+              "hint": "Good preparation can improve your ______ during an interview.",
+              "meaning": "Sự tự tin",
+              "syn": "self-assurance, certainty, trust",
+              "exEn": "Good preparation can improve your confidence during an interview.",
+              "exVi": "Chuẩn bị tốt có thể cải thiện sự tự tin của bạn trong buổi phỏng vấn."
+            },
+            {
+              "word": "constantly",
+              "pos": "(adv)",
+              "pronunciation": "/ˈkɑːnstəntli/",
+              "hint": "The job market is ______ changing.",
+              "meaning": "Liên tục, không ngừng",
+              "syn": "continually, continuously, repeatedly",
+              "exEn": "The job market is constantly changing.",
+              "exVi": "Thị trường việc làm liên tục thay đổi."
+            },
+            {
+              "word": "expert",
+              "pos": "(n / adj)",
+              "pronunciation": "/ˈekspɜːrt/",
+              "hint": "The company is looking for an ______ in cybersecurity.",
+              "meaning": "Chuyên gia / Có chuyên môn",
+              "syn": "specialist, professional, skilled",
+              "exEn": "The company is looking for an expert in cybersecurity.",
+              "exVi": "Công ty đang tìm kiếm một chuyên gia về an ninh mạng."
+            },
+            {
+              "word": "follow up",
+              "pos": "(v)",
+              "pronunciation": "/ˈfɑːloʊ ʌp/",
+              "hint": "You should ______ after the interview with a thank-you email.",
+              "meaning": "Theo dõi, liên hệ lại",
+              "syn": "check back, pursue, contact again",
+              "exEn": "You should follow up after the interview with a thank-you email.",
+              "exVi": "Bạn nên liên hệ lại sau buổi phỏng vấn bằng một email cảm ơn."
+            },
+            {
+              "word": "hesitant",
+              "pos": "(adj)",
+              "pronunciation": "/ˈhezɪtənt/",
+              "hint": "The candidate was ______ to discuss her previous salary.",
+              "meaning": "Do dự, ngần ngại",
+              "syn": "uncertain, reluctant, unsure",
+              "exEn": "The candidate was hesitant to discuss her previous salary.",
+              "exVi": "Ứng viên ngần ngại thảo luận về mức lương trước đây."
+            },
+            {
+              "word": "present",
+              "pos": "(v / adj)",
+              "pronunciation": "/prɪˈzent/",
+              "hint": "The applicant will ______ her portfolio during the interview.",
+              "meaning": "Trình bày, giới thiệu / Có mặt",
+              "syn": "introduce, demonstrate, show",
+              "exEn": "The applicant will present her portfolio during the interview.",
+              "exVi": "Ứng viên sẽ trình bày hồ sơ năng lực của mình trong buổi phỏng vấn."
+            },
+            {
+              "word": "weakly",
+              "pos": "(adv)",
+              "pronunciation": "/ˈwiːkli/",
+              "hint": "The candidate answered the question ______ and lacked confidence.",
+              "meaning": "Một cách yếu ớt, thiếu sức thuyết phục",
+              "syn": "feebly, faintly, unconvincingly",
+              "exEn": "The candidate answered the question weakly and lacked confidence.",
+              "exVi": "Ứng viên trả lời câu hỏi một cách yếu ớt và thiếu tự tin."
+            }
+          ]
+        },
+        {
+          "id": "hiring_training",
+          "label": "13. Hiring and Training",
+          "cards": [
+            {
+              "word": "conduct",
+              "pos": "(v / n)",
+              "pronunciation": "/kənˈdʌkt/",
+              "hint": "The HR manager will ______ interviews next week.",
+              "meaning": "Tiến hành, thực hiện / Cách ứng xử",
+              "syn": "carry out, perform, behavior",
+              "exEn": "The HR manager will conduct interviews next week.",
+              "exVi": "Quản lý nhân sự sẽ tiến hành các cuộc phỏng vấn vào tuần tới."
+            },
+            {
+              "word": "generate",
+              "pos": "(v)",
+              "pronunciation": "/ˈdʒenəreɪt/",
+              "hint": "The training program can ______ new ideas among employees.",
+              "meaning": "Tạo ra, sinh ra",
+              "syn": "produce, create, develop",
+              "exEn": "The training program can generate new ideas among employees.",
+              "exVi": "Chương trình đào tạo có thể tạo ra những ý tưởng mới giữa các nhân viên."
+            },
+            {
+              "word": "hire",
+              "pos": "(v)",
+              "pronunciation": "/ˈhaɪər/",
+              "hint": "The company plans to ______ ten new employees.",
+              "meaning": "Thuê, tuyển dụng",
+              "syn": "employ, recruit, appoint",
+              "exEn": "The company plans to hire ten new employees this year.",
+              "exVi": "Công ty dự định tuyển dụng mười nhân viên mới trong năm nay."
+            },
+            {
+              "word": "keep up with",
+              "pos": "(v)",
+              "pronunciation": "/kiːp ʌp wɪð/",
+              "hint": "Employees need to ______ the latest industry trends.",
+              "meaning": "Theo kịp, bắt kịp",
+              "syn": "stay current with, keep pace with, follow",
+              "exEn": "Employees need to keep up with the latest industry trends.",
+              "exVi": "Nhân viên cần theo kịp những xu hướng mới nhất trong ngành."
+            },
+            {
+              "word": "look up to",
+              "pos": "(v)",
+              "pronunciation": "/lʊk ʌp tuː/",
+              "hint": "Many young employees ______ their experienced manager.",
+              "meaning": "Ngưỡng mộ, kính trọng",
+              "syn": "admire, respect, esteem",
+              "exEn": "Many young employees look up to their experienced manager.",
+              "exVi": "Nhiều nhân viên trẻ ngưỡng mộ người quản lý giàu kinh nghiệm của họ."
+            },
+            {
+              "word": "mentor",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈmentɔːr/",
+              "hint": "An experienced employee will ______ the new staff member.",
+              "meaning": "Người cố vấn / Cố vấn, hướng dẫn",
+              "syn": "advisor, guide, coach",
+              "exEn": "An experienced employee will mentor the new staff member.",
+              "exVi": "Một nhân viên giàu kinh nghiệm sẽ hướng dẫn nhân viên mới."
+            },
+            {
+              "word": "on track",
+              "pos": "(adj / adv)",
+              "pronunciation": "/ɑːn træk/",
+              "hint": "The new employee is ______ to complete the training on time.",
+              "meaning": "Đúng tiến độ, đi đúng hướng",
+              "syn": "on schedule, progressing, proceeding",
+              "exEn": "The new employee is on track to complete the training on time.",
+              "exVi": "Nhân viên mới đang đi đúng tiến độ để hoàn thành khóa đào tạo đúng hạn."
+            },
+            {
+              "word": "reject",
+              "pos": "(v)",
+              "pronunciation": "/rɪˈdʒekt/",
+              "hint": "The company decided to ______ the applicant's proposal.",
+              "meaning": "Từ chối, bác bỏ",
+              "syn": "refuse, decline, turn down",
+              "exEn": "The company decided to reject the applicant's proposal.",
+              "exVi": "Công ty quyết định từ chối đề xuất của ứng viên."
+            },
+            {
+              "word": "set up",
+              "pos": "(v)",
+              "pronunciation": "/set ʌp/",
+              "hint": "The HR team will ______ a training session for new employees.",
+              "meaning": "Thiết lập, sắp xếp, tổ chức",
+              "syn": "arrange, establish, organize",
+              "exEn": "The HR team will set up a training session for new employees.",
+              "exVi": "Đội ngũ nhân sự sẽ tổ chức một buổi đào tạo cho nhân viên mới."
+            },
+            {
+              "word": "success",
+              "pos": "(n)",
+              "pronunciation": "/səkˈses/",
+              "hint": "The success of the training program depends on employee participation.",
+              "meaning": "Sự thành công",
+              "syn": "achievement, accomplishment, victory",
+              "exEn": "The success of the training program depends on employee participation.",
+              "exVi": "Sự thành công của chương trình đào tạo phụ thuộc vào sự tham gia của nhân viên."
+            },
+            {
+              "word": "training",
+              "pos": "(n)",
+              "pronunciation": "/ˈtreɪnɪŋ/",
+              "hint": "All new employees must complete safety ______.",
+              "meaning": "Sự đào tạo, khóa đào tạo",
+              "syn": "instruction, education, coaching",
+              "exEn": "All new employees must complete safety training.",
+              "exVi": "Tất cả nhân viên mới phải hoàn thành khóa đào tạo an toàn."
+            },
+            {
+              "word": "update",
+              "pos": "(v / n)",
+              "pronunciation": "/ʌpˈdeɪt/",
+              "hint": "The company will ______ its training materials every year.",
+              "meaning": "Cập nhật / Bản cập nhật",
+              "syn": "revise, renew, modernize",
+              "exEn": "The company will update its training materials every year.",
+              "exVi": "Công ty sẽ cập nhật tài liệu đào tạo mỗi năm."
+            }
+          ]
+        },
+        {
+          "id": "salaries_benefits",
+          "label": "14. Salaries & Benefits",
+          "cards": [
+            {
+              "word": "basis",
+              "pos": "(n)",
+              "pronunciation": "/ˈbeɪsɪs/",
+              "hint": "Employees are paid on a monthly ________.",
+              "meaning": "Cơ sở, nền tảng; căn cứ",
+              "syn": "foundation, standard, basis",
+              "exEn": "Employees are paid on a monthly basis.",
+              "exVi": "Nhân viên được trả lương theo cơ sở hàng tháng."
+            },
+            {
+              "word": "benefit",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈbenɪfɪt/",
+              "hint": "Health insurance is an important ________ for employees.",
+              "meaning": "Phúc lợi, lợi ích / Mang lại lợi ích",
+              "syn": "advantage, perk, gain",
+              "exEn": "Health insurance is an important benefit for employees.",
+              "exVi": "Bảo hiểm y tế là một phúc lợi quan trọng đối với nhân viên."
+            },
+            {
+              "word": "compensate",
+              "pos": "(v)",
+              "pronunciation": "/ˈkɒmpenseɪt/",
+              "hint": "The company will ________ employees for overtime work.",
+              "meaning": "Đền bù, bồi thường, trả công",
+              "syn": "reimburse, repay, make up for",
+              "exEn": "The company will compensate employees for overtime work.",
+              "exVi": "Công ty sẽ trả công cho nhân viên vì làm thêm giờ."
+            },
+            {
+              "word": "delicately",
+              "pos": "(adv)",
+              "pronunciation": "/ˈdelɪkətli/",
+              "hint": "The manager handled the salary issue ________.",
+              "meaning": "Một cách tế nhị, khéo léo",
+              "syn": "tactfully, carefully, sensitively",
+              "exEn": "The manager handled the salary issue delicately.",
+              "exVi": "Quản lý đã xử lý vấn đề tiền lương một cách tế nhị."
+            },
+            {
+              "word": "eligible",
+              "pos": "(adj)",
+              "pronunciation": "/ˈelɪdʒəbl/",
+              "hint": "Employees who have worked here for one year are ________ for the bonus.",
+              "meaning": "Đủ điều kiện, đủ tiêu chuẩn",
+              "syn": "qualified, entitled, suitable",
+              "exEn": "Employees who have worked here for one year are eligible for the bonus.",
+              "exVi": "Những nhân viên đã làm việc ở đây một năm đủ điều kiện nhận tiền thưởng."
+            },
+            {
+              "word": "flexibly",
+              "pos": "(adv)",
+              "pronunciation": "/ˈfleksəbli/",
+              "hint": "Employees can work ________ to balance their work and personal lives.",
+              "meaning": "Một cách linh hoạt",
+              "syn": "adaptably, freely, conveniently",
+              "exEn": "Employees can work flexibly to balance their work and personal lives.",
+              "exVi": "Nhân viên có thể làm việc linh hoạt để cân bằng công việc và cuộc sống cá nhân."
+            },
+            {
+              "word": "negotiate",
+              "pos": "(v)",
+              "pronunciation": "/nɪˈɡəʊʃieɪt/",
+              "hint": "The employee tried to ________ a higher salary with the company.",
+              "meaning": "Đàm phán, thương lượng",
+              "syn": "bargain, discuss, settle",
+              "exEn": "The employee tried to negotiate a higher salary with the company.",
+              "exVi": "Nhân viên đã cố gắng thương lượng mức lương cao hơn với công ty."
+            },
+            {
+              "word": "raise",
+              "pos": "(n / v)",
+              "pronunciation": "/reɪz/",
+              "hint": "She received a salary ________ after being promoted.",
+              "meaning": "Tăng lương / Tăng, nâng lên",
+              "syn": "pay increase, increase, boost",
+              "exEn": "She received a salary raise after being promoted.",
+              "exVi": "Cô ấy được tăng lương sau khi được thăng chức."
+            },
+            {
+              "word": "retire",
+              "pos": "(v)",
+              "pronunciation": "/rɪˈtaɪə(r)/",
+              "hint": "Mr. Brown plans to ________ at the age of sixty-five.",
+              "meaning": "Nghỉ hưu",
+              "syn": "stop working, leave employment, withdraw",
+              "exEn": "Mr. Brown plans to retire at the age of sixty-five.",
+              "exVi": "Ông Brown dự định nghỉ hưu ở tuổi 65."
+            },
+            {
+              "word": "vested",
+              "pos": "(adj)",
+              "pronunciation": "/ˈvestɪd/",
+              "hint": "Employees become fully ________ in the retirement plan after five years.",
+              "meaning": "Được hưởng đầy đủ quyền lợi, có quyền hưởng quyền lợi",
+              "syn": "entitled, secured, guaranteed",
+              "exEn": "Employees become fully vested in the retirement plan after five years.",
+              "exVi": "Nhân viên được hưởng đầy đủ quyền lợi trong chương trình hưu trí sau năm năm."
+            },
+            {
+              "word": "wage",
+              "pos": "(n)",
+              "pronunciation": "/weɪdʒ/",
+              "hint": "The company increased the minimum ________ for its workers.",
+              "meaning": "Tiền công, tiền lương, đặc biệt theo giờ/ngày",
+              "syn": "pay, earnings, remuneration",
+              "exEn": "The company increased the minimum wage for its workers.",
+              "exVi": "Công ty đã tăng mức lương tối thiểu cho công nhân."
+            },
+            {
+              "word": "be aware of",
+              "pos": "(v phrase)",
+              "pronunciation": "/bi əˈweə(r) əv/",
+              "hint": "Employees should ________ the company's benefits policy.",
+              "meaning": "Nhận thức, biết rõ, lưu ý về",
+              "syn": "know about, recognize, be conscious of",
+              "exEn": "Employees should be aware of the company's benefits policy.",
+              "exVi": "Nhân viên nên biết rõ về chính sách phúc lợi của công ty."
+            }
+          ]
+        },
+        {
+          "id": "promotions_positions_awards",
+          "label": "15. Promotions, Positions & Awards",
+          "cards": [
+            {
+              "word": "achievement",
+              "pos": "(n)",
+              "pronunciation": "/əˈtʃiːvmənt/",
+              "hint": "The award recognizes her outstanding ________ in the company.",
+              "meaning": "Thành tựu, thành tích",
+              "syn": "accomplishment, success, attainment",
+              "exEn": "The award recognizes her outstanding achievement in the company.",
+              "exVi": "Giải thưởng ghi nhận thành tích xuất sắc của cô ấy trong công ty."
+            },
+            {
+              "word": "contribute",
+              "pos": "(v)",
+              "pronunciation": "/kənˈtrɪbjuːt/",
+              "hint": "Every employee is expected to ________ to the success of the project.",
+              "meaning": "Đóng góp",
+              "syn": "contribute to, add to, support",
+              "exEn": "Every employee is expected to contribute to the success of the project.",
+              "exVi": "Mỗi nhân viên được kỳ vọng đóng góp vào thành công của dự án."
+            },
+            {
+              "word": "dedication",
+              "pos": "(n)",
+              "pronunciation": "/ˌdedɪˈkeɪʃən/",
+              "hint": "Her ________ to the company was recognized with an award.",
+              "meaning": "Sự tận tâm, sự cống hiến",
+              "syn": "commitment, devotion, loyalty",
+              "exEn": "Her dedication to the company was recognized with an award.",
+              "exVi": "Sự tận tâm của cô ấy với công ty đã được ghi nhận bằng một giải thưởng."
+            },
+            {
+              "word": "look forward to",
+              "pos": "(v phrase)",
+              "pronunciation": "/lʊk ˈfɔːrwəd tuː/",
+              "hint": "We ________ working with you on the new project.",
+              "meaning": "Mong đợi, háo hức chờ đợi",
+              "syn": "anticipate, await, expect",
+              "exEn": "We look forward to working with you on the new project.",
+              "exVi": "Chúng tôi mong đợi được làm việc với bạn trong dự án mới."
+            },
+            {
+              "word": "look to",
+              "pos": "(v phrase)",
+              "pronunciation": "/lʊk tuː/",
+              "hint": "The company will ________ experienced employees for leadership roles.",
+              "meaning": "Trông cậy vào, tìm đến, hướng đến",
+              "syn": "rely on, turn to, seek",
+              "exEn": "The company will look to experienced employees for leadership roles.",
+              "exVi": "Công ty sẽ trông cậy vào những nhân viên giàu kinh nghiệm cho các vị trí lãnh đạo."
+            },
+            {
+              "word": "loyal",
+              "pos": "(adj)",
+              "pronunciation": "/ˈlɔɪəl/",
+              "hint": "The company rewards employees who remain ________ for many years.",
+              "meaning": "Trung thành",
+              "syn": "faithful, devoted, committed",
+              "exEn": "The company rewards employees who remain loyal for many years.",
+              "exVi": "Công ty khen thưởng những nhân viên trung thành trong nhiều năm."
+            },
+            {
+              "word": "merit",
+              "pos": "(n)",
+              "pronunciation": "/ˈmerɪt/",
+              "hint": "She received a promotion based on her performance and ________.",
+              "meaning": "Năng lực, thành tích; giá trị xứng đáng",
+              "syn": "deservingness, quality, worth",
+              "exEn": "She received a promotion based on her performance and merit.",
+              "exVi": "Cô ấy được thăng chức dựa trên hiệu suất làm việc và năng lực."
+            },
+            {
+              "word": "obviously",
+              "pos": "(adv)",
+              "pronunciation": "/ˈɒbviəsli/",
+              "hint": "He was ________ the best candidate for the position.",
+              "meaning": "Rõ ràng, hiển nhiên",
+              "syn": "clearly, evidently, plainly",
+              "exEn": "He was obviously the best candidate for the position.",
+              "exVi": "Rõ ràng anh ấy là ứng viên tốt nhất cho vị trí này."
+            },
+            {
+              "word": "productive",
+              "pos": "(adj)",
+              "pronunciation": "/prəˈdʌktɪv/",
+              "hint": "The manager praised the team for being highly ________.",
+              "meaning": "Có năng suất, hiệu quả",
+              "syn": "efficient, effective, fruitful",
+              "exEn": "The manager praised the team for being highly productive.",
+              "exVi": "Quản lý khen đội ngũ vì đã làm việc rất năng suất."
+            },
+            {
+              "word": "promote",
+              "pos": "(v)",
+              "pronunciation": "/prəˈməʊt/",
+              "hint": "The company plans to ________ her to a management position.",
+              "meaning": "Thăng chức; thúc đẩy, quảng bá",
+              "syn": "advance, elevate, encourage",
+              "exEn": "The company plans to promote her to a management position.",
+              "exVi": "Công ty dự định thăng chức cô ấy lên vị trí quản lý."
+            },
+            {
+              "word": "recognition",
+              "pos": "(n)",
+              "pronunciation": "/ˌrekəɡˈnɪʃən/",
+              "hint": "The employee received public ________ for his outstanding work.",
+              "meaning": "Sự công nhận, sự ghi nhận",
+              "syn": "acknowledgment, appreciation, praise",
+              "exEn": "The employee received public recognition for his outstanding work.",
+              "exVi": "Nhân viên nhận được sự ghi nhận công khai cho công việc xuất sắc của mình."
+            },
+            {
+              "word": "value",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈvæljuː/",
+              "hint": "The company ________ employees who show strong leadership skills.",
+              "meaning": "Giá trị; coi trọng, đánh giá cao",
+              "syn": "worth, importance, appreciate",
+              "exEn": "The company values employees who show strong leadership skills.",
+              "exVi": "Công ty coi trọng những nhân viên thể hiện kỹ năng lãnh đạo tốt."
+            }
+          ]
+        },
+        {
+          "id": "shopping",
+          "label": "16. Shopping",
+          "cards": [
+            {
+              "word": "bargain",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈbɑːrɡən/",
+              "hint": "I found a great ________ at the outlet store.",
+              "meaning": "Món hời, giá rất tốt / Mặc cả, thương lượng",
+              "syn": "good deal, discount, negotiate",
+              "exEn": "I found a great bargain at the outlet store.",
+              "exVi": "Tôi đã tìm được một món hời tuyệt vời tại cửa hàng giảm giá."
+            },
+            {
+              "word": "bear",
+              "pos": "(v)",
+              "pronunciation": "/ber/",
+              "hint": "The company cannot ________ the cost of replacing all the equipment.",
+              "meaning": "Chịu đựng, chịu trách nhiệm về chi phí",
+              "syn": "tolerate, endure, afford",
+              "exEn": "The company cannot bear the cost of replacing all the equipment.",
+              "exVi": "Công ty không thể chịu nổi chi phí thay thế toàn bộ thiết bị."
+            },
+            {
+              "word": "behaviour",
+              "pos": "(n)",
+              "pronunciation": "/bɪˈheɪvjər/",
+              "hint": "The store has a policy regarding unacceptable customer ________.",
+              "meaning": "Hành vi, cách cư xử",
+              "syn": "conduct, manner, actions",
+              "exEn": "The store has a policy regarding unacceptable customer behaviour.",
+              "exVi": "Cửa hàng có chính sách liên quan đến hành vi không phù hợp của khách hàng."
+            },
+            {
+              "word": "checkout",
+              "pos": "(n)",
+              "pronunciation": "/ˈtʃekaʊt/",
+              "hint": "Please proceed to the ________ to pay for your items.",
+              "meaning": "Quầy thanh toán; quá trình thanh toán",
+              "syn": "payment counter, register, payment",
+              "exEn": "Please proceed to the checkout to pay for your items.",
+              "exVi": "Vui lòng đến quầy thanh toán để trả tiền cho các mặt hàng của bạn."
+            },
+            {
+              "word": "comfort",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈkʌmfərt/",
+              "hint": "These shoes are designed for maximum ________.",
+              "meaning": "Sự thoải mái; làm cho thoải mái, an ủi",
+              "syn": "ease, convenience, relief",
+              "exEn": "These shoes are designed for maximum comfort.",
+              "exVi": "Những đôi giày này được thiết kế để mang lại sự thoải mái tối đa."
+            },
+            {
+              "word": "expand",
+              "pos": "(v)",
+              "pronunciation": "/ɪkˈspænd/",
+              "hint": "The retailer plans to ________ its online business next year.",
+              "meaning": "Mở rộng, phát triển",
+              "syn": "extend, enlarge, increase",
+              "exEn": "The retailer plans to expand its online business next year.",
+              "exVi": "Nhà bán lẻ dự định mở rộng hoạt động kinh doanh trực tuyến vào năm tới."
+            },
+            {
+              "word": "explore",
+              "pos": "(v)",
+              "pronunciation": "/ɪkˈsplɔːr/",
+              "hint": "Customers can ________ different products on our website.",
+              "meaning": "Khám phá, tìm hiểu",
+              "syn": "investigate, examine, discover",
+              "exEn": "Customers can explore different products on our website.",
+              "exVi": "Khách hàng có thể khám phá các sản phẩm khác nhau trên trang web của chúng tôi."
+            },
+            {
+              "word": "item",
+              "pos": "(n)",
+              "pronunciation": "/ˈaɪtəm/",
+              "hint": "This item is currently unavailable in our online store.",
+              "meaning": "Mặt hàng, món hàng, sản phẩm",
+              "syn": "product, article, merchandise",
+              "exEn": "This item is currently unavailable in our online store.",
+              "exVi": "Mặt hàng này hiện không có sẵn trên cửa hàng trực tuyến của chúng tôi."
+            },
+            {
+              "word": "mandatory",
+              "pos": "(adj)",
+              "pronunciation": "/ˈmændətɔːri/",
+              "hint": "Providing a receipt is ________ for purchases over $100.",
+              "meaning": "Bắt buộc, mang tính bắt buộc",
+              "syn": "required, compulsory, obligatory",
+              "exEn": "Providing a receipt is mandatory for purchases over $100.",
+              "exVi": "Việc cung cấp hóa đơn là bắt buộc đối với các giao dịch mua trên 100 đô la."
+            },
+            {
+              "word": "merchandise",
+              "pos": "(n / v)",
+              "pronunciation": "/ˈmɜːrtʃəndaɪz/",
+              "hint": "The store offers a wide range of electronic ________.",
+              "meaning": "Hàng hóa, hàng hóa được bày bán / Tiếp thị, quảng bá hàng hóa",
+              "syn": "goods, products, commodities",
+              "exEn": "The store offers a wide range of electronic merchandise.",
+              "exVi": "Cửa hàng cung cấp nhiều loại hàng điện tử."
+            },
+            {
+              "word": "strictly",
+              "pos": "(adv)",
+              "pronunciation": "/ˈstrɪktli/",
+              "hint": "Discounts are ________ available to members of the loyalty program.",
+              "meaning": "Một cách nghiêm ngặt; chỉ, hoàn toàn theo quy định",
+              "syn": "firmly, rigorously, exclusively",
+              "exEn": "Discounts are strictly available to members of the loyalty program.",
+              "exVi": "Các khoản giảm giá chỉ dành cho thành viên của chương trình khách hàng thân thiết."
+            },
+            {
+              "word": "trend",
+              "pos": "(n / v)",
+              "pronunciation": "/trend/",
+              "hint": "Online shopping has become a major ________ in recent years.",
+              "meaning": "Xu hướng; có xu hướng",
+              "syn": "tendency, tendency, fashion",
+              "exEn": "Online shopping has become a major trend in recent years.",
+              "exVi": "Mua sắm trực tuyến đã trở thành một xu hướng lớn trong những năm gần đây."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic_part_1",
+      "label": "TOEIC Part 1",
+      "topics": [
+        {
+          "id": "Toeic Part 1 (1st)",
+          "label": "Toeic Part 1 (1st)",
+          "cards": [
+            {
+              "word": "lift",
+              "pos": "(v)",
+              "pronunciation": "/lɪft/",
+              "hint": "A worker is ______ a box onto a cart.",
+              "meaning": "Nâng, nhấc lên",
+              "syn": "raise, pick up, hoist",
+              "exEn": "A worker is lifting a box onto a cart.",
+              "exVi": "Một công nhân đang nâng một chiếc hộp lên xe đẩy."
+            },
+            {
+              "word": "step stool",
+              "pos": "(n)",
+              "pronunciation": "/ˈstep stuːl/",
+              "hint": "A man is standing on a ______ to reach the shelf.",
+              "meaning": "Ghế bậc, thang nhỏ",
+              "syn": "small ladder, stool",
+              "exEn": "A man is standing on a step stool to reach the top shelf.",
+              "exVi": "Một người đàn ông đang đứng trên ghế bậc để với tới kệ trên cùng."
+            },
+            {
+              "word": "fallen branches",
+              "pos": "(n)",
+              "pronunciation": "/ˌfɔːlən ˈbræntʃɪz/",
+              "hint": "Several ______ are scattered across the ground.",
+              "meaning": "Những cành cây bị rơi, cành cây gãy rơi xuống",
+              "syn": "broken branches, tree limbs",
+              "exEn": "Several fallen branches are scattered across the ground.",
+              "exVi": "Một số cành cây bị rơi nằm rải rác trên mặt đất."
+            },
+            {
+              "word": "grassy",
+              "pos": "(adj)",
+              "pronunciation": "/ˈɡrɑːsi/",
+              "hint": "People are walking across a ______ area.",
+              "meaning": "Có cỏ, phủ đầy cỏ",
+              "syn": "grass-covered, green",
+              "exEn": "People are walking across a grassy area.",
+              "exVi": "Mọi người đang đi bộ qua một khu vực có cỏ."
+            },
+            {
+              "word": "some water has pooled",
+              "pos": "(phrase)",
+              "pronunciation": "/sʌm ˈwɔːtər hæz puːld/",
+              "hint": "Some water has ______ near the entrance.",
+              "meaning": "Một ít nước đã đọng lại",
+              "syn": "water has collected, water has accumulated",
+              "exEn": "Some water has pooled near the entrance.",
+              "exVi": "Một ít nước đã đọng lại gần lối vào."
+            },
+            {
+              "word": "tying up",
+              "pos": "(v)",
+              "pronunciation": "/ˈtaɪɪŋ ʌp/",
+              "hint": "A woman is ______ some packages.",
+              "meaning": "Buộc, cột lại",
+              "syn": "fastening, securing, binding",
+              "exEn": "A woman is tying up some packages with string.",
+              "exVi": "Một người phụ nữ đang buộc một số kiện hàng bằng dây."
+            },
+            {
+              "word": "filing cabinet",
+              "pos": "(n)",
+              "pronunciation": "/ˈfaɪlɪŋ ˌkæbɪnət/",
+              "hint": "The documents are stored in a ______.",
+              "meaning": "Tủ hồ sơ",
+              "syn": "file cabinet, storage cabinet",
+              "exEn": "The documents are stored in a filing cabinet.",
+              "exVi": "Các tài liệu được lưu trữ trong tủ hồ sơ."
+            },
+            {
+              "word": "beverage",
+              "pos": "(n)",
+              "pronunciation": "/ˈbevərɪdʒ/",
+              "hint": "A worker is carrying a ______ to the table.",
+              "meaning": "Đồ uống",
+              "syn": "drink, refreshment",
+              "exEn": "A worker is carrying a beverage to the table.",
+              "exVi": "Một nhân viên đang mang đồ uống đến bàn."
+            },
+            {
+              "word": "light fixtures",
+              "pos": "(n)",
+              "pronunciation": "/laɪt ˈfɪkstʃərz/",
+              "hint": "Several ______ are attached to the ceiling.",
+              "meaning": "Thiết bị, bộ đèn chiếu sáng",
+              "syn": "light fittings, lamps",
+              "exEn": "Several light fixtures are attached to the ceiling.",
+              "exVi": "Một số bộ đèn được gắn trên trần nhà."
+            },
+            {
+              "word": "ceiling",
+              "pos": "(n)",
+              "pronunciation": "/ˈsiːlɪŋ/",
+              "hint": "A lamp is hanging from the ______.",
+              "meaning": "Trần nhà",
+              "syn": "upper surface, overhead",
+              "exEn": "A lamp is hanging from the ceiling.",
+              "exVi": "Một chiếc đèn đang treo trên trần nhà."
+            },
+            {
+              "word": "tiles",
+              "pos": "(n)",
+              "pronunciation": "/taɪlz/",
+              "hint": "The floor is covered with white ______.",
+              "meaning": "Gạch, ngói, gạch lát",
+              "syn": "floor tiles, slabs",
+              "exEn": "The floor is covered with white tiles.",
+              "exVi": "Sàn nhà được lát bằng gạch trắng."
+            },
+            {
+              "word": "wooden crate",
+              "pos": "(n)",
+              "pronunciation": "/ˈwʊdən kreɪt/",
+              "hint": "The vegetables are packed in a ______.",
+              "meaning": "Thùng gỗ",
+              "syn": "wooden box, container",
+              "exEn": "The vegetables are packed in a wooden crate.",
+              "exVi": "Rau củ được đóng gói trong một thùng gỗ."
+            },
+            {
+              "word": "metal",
+              "pos": "(n)",
+              "pronunciation": "/ˈmetl/",
+              "hint": "The chairs are made of ______.",
+              "meaning": "Kim loại",
+              "syn": "metallic material, alloy",
+              "exEn": "The chairs are made of metal.",
+              "exVi": "Những chiếc ghế được làm bằng kim loại."
+            },
+            {
+              "word": "stone",
+              "pos": "(n)",
+              "pronunciation": "/stoʊn/",
+              "hint": "The pathway is made of ______.",
+              "meaning": "Đá",
+              "syn": "rock, masonry",
+              "exEn": "The pathway is made of stone.",
+              "exVi": "Lối đi được làm bằng đá."
+            },
+            {
+              "word": "potted plants",
+              "pos": "(n)",
+              "pronunciation": "/ˌpɑːtɪd ˈplænts/",
+              "hint": "Several ______ are arranged near the entrance.",
+              "meaning": "Cây trồng trong chậu",
+              "syn": "container plants, indoor plants",
+              "exEn": "Several potted plants are arranged near the entrance.",
+              "exVi": "Một số cây trồng trong chậu được sắp xếp gần lối vào."
+            },
+            {
+              "word": "balcony",
+              "pos": "(n)",
+              "pronunciation": "/ˈbælkəni/",
+              "hint": "A woman is standing on the ______.",
+              "meaning": "Ban công",
+              "syn": "terrace, veranda",
+              "exEn": "A woman is standing on the balcony.",
+              "exVi": "Một người phụ nữ đang đứng trên ban công."
+            },
+            {
+              "word": "leaning against",
+              "pos": "(v)",
+              "pronunciation": "/ˈliːnɪŋ əˈɡenst/",
+              "hint": "A ladder is ______ the wall.",
+              "meaning": "Dựa vào, tựa vào",
+              "syn": "resting against, propped against",
+              "exEn": "A ladder is leaning against the wall.",
+              "exVi": "Một chiếc thang đang tựa vào tường."
+            },
+            {
+              "word": "railing",
+              "pos": "(n)",
+              "pronunciation": "/ˈreɪlɪŋ/",
+              "hint": "A man is standing beside the ______.",
+              "meaning": "Lan can, tay vịn",
+              "syn": "handrail, guardrail, barrier",
+              "exEn": "A man is standing beside the railing.",
+              "exVi": "Một người đàn ông đang đứng cạnh lan can."
+            }
+          ]
+        },
+        {
+          "id": "day2",
+          "label": "Day 2",
+          "cards": []
+        }
+      ]
+    },
+    {
+      "id": "my_vocabularies",
+      "label": "My vocabularies",
+      "topics": [
+        {
+          "id": "day1",
+          "label": "Day 1",
+          "cards": []
+        },
+        {
+          "id": "day2",
+          "label": "Day 2",
+          "cards": []
+        }
+      ]
+    }
+  ]
+}
