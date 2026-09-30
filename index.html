@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOEIC Flashcards System</title>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-hover: #4338ca;
+            --secondary: #0ea5e9;
+            --bg: #f8fafc;
+            --card-front: #ffffff;
+            --card-back: #eff6ff;
+            --text-main: #1e293b;
+            --text-sub: #64748b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            color: var(--primary);
+        }
+
+        .selector-container {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        select {
+            padding: 10px 15px;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 2px solid #cbd5e1;
+            background-color: white;
+            color: var(--text-main);
+            cursor: pointer;
+            font-weight: 600;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        select:focus {
+            border-color: var(--primary);
+        }
+
+        .progress-container {
+            width: 100%;
+            max-width: 500px;
+            background-color: #e2e8f0;
+            border-radius: 10px;
+            height: 8px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: var(--primary);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .counter {
+            font-size: 0.9rem;
+            color: var(--text-sub);
+            margin-bottom: 20px;
+        }
+
+        .flashcard-wrapper {
+            width: 100%;
+            max-width: 500px;
+            height: 320px;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+
+        .flashcard {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            border-radius: 16px;
+        }
+
+        .flashcard.is-flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 16px;
+            padding: 30px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .card-front {
+            background-color: var(--card-front);
+            border: 2px solid #e2e8f0;
+        }
+
+        .card-front .word {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .card-front .pos {
+            font-style: italic;
+            color: var(--text-sub);
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .card-front .hint {
+            font-size: 1rem;
+            color: #475569;
+            background: #f1f5f9;
+            padding: 10px 15px;
+            border-radius: 8px;
+            max-width: 90%;
+        }
+
+        .card-back {
+            background-color: var(--card-back);
+            transform: rotateY(180deg);
+            border: 2px solid #bfdbfe;
+            justify-content: space-between;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .card-back .meaning {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1e3a8a;
+            margin-bottom: 12px;
+            width: 100%;
+            border-bottom: 2px dashed #bfdbfe;
+            padding-bottom: 8px;
+        }
+
+        .card-back .details {
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: var(--text-main);
+            width: 100%;
+        }
+
+        .card-back .synonyms {
+            margin-bottom: 10px;
+            color: #0369a1;
+        }
+
+        .card-back .example-en {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .card-back .example-vi {
+            color: #475569;
+            font-style: italic;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2);
+        }
+
+        button:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        button.btn-shuffle {
+            background-color: var(--secondary);
+            box-shadow: 0 4px 6px -1px rgba(14, 165, 233, 0.2);
+        }
+
+        button.btn-shuffle:hover {
+            background-color: #0284c7;
+        }
+
+        button:disabled {
+            background-color: #cbd5e1;
+            color: #94a3b8;
+            cursor: not-allowed;
+            box-shadow: none;
+            transform: none;
+        }
+
+        .tip {
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: var(--text-sub);
+        }
+
+        .pron {
+            color: green;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>TOEIC Flashcards</h1>
+    
+    <div class="selector-container">
+        <label for="topicSelect"><strong>Choose Lesson:</strong></label>
+        <select id="topicSelect" onchange="changeTopic()">
+            <option value="contracts">Lesson 1: Contracts (Hợp đồng)</option>
+            <option value="marketing">Lesson 2: Marketing (Tiếp thị)</option>
+            <option value="warranties">Lesson 3: Warranties (Sự bảo hành)</option>
+            <option value="business_planning">Lesson 4: Business_planning</option>
+            <option value="conference">Lesson 5: Conference (Hội nghị)</option>
+            <option value="computer_and_internets">Lesson 6: Computer and Internets</option>
+            <option value="office_technology">Lesson 7: Office technology</option>
+            
+        </select>
+    </div>
+
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div class="counter" id="counter">Card 1 of 11</div>
+
+    <div class="flashcard-wrapper" onclick="flipCard()">
+        <div class="flashcard" id="flashcard">
+            <div class="card-face card-front">
+                <div class="word" id="f-word">-</div>
+                <div class="pos" id="f-pos">-</div>
+                <div class="pron" id="f-pron">-</div>
+                <div class="hint" id="f-hint">-</div>
+            </div>
+            <div class="card-face card-back">
+                <div class="meaning" id="b-meaning">-</div>
+                <div class="details">
+                    <div class="synonyms"><strong>Synonyms:</strong> <span id="b-syn">-</span></div>
+                    <div class="example-en"><strong>Example:</strong> <span id="b-ex-en">-</span></div>
+                    <div class="example-vi"><strong>Dịch:</strong> <span id="b-ex-vi">-</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="prevBtn" onclick="prevCard()">Back</button>
+        <button class="btn-shuffle" id="shuffleBtn" onclick="shuffleCards()">🔀 Shuffle</button>
+        <button id="nextBtn" onclick="nextCard()">Next</button>
+    </div>
+
+    <div class="tip">💡 Click on the card to flip and see the definition!</div>
+
+    <script>
+        const dataset = {
+            contracts: [
+                { word: "abide by", pos: "(v)", pronunciation: "/əˈbaɪd baɪ/", hint: "Both companies agree to ______ the terms.", meaning: "Tuân thủ, tuân theo", syn: "comply with, conform to, adhere to", exEn: "Both companies agree to abide by the terms of the agreement.", exVi: "Cả hai công ty đều đồng ý tuân thủ các điều khoản của thỏa thuận." },
+                { word: "agreement", pos: "(n)", pronunciation: "/əˈɡriːmənt/", hint: "According to the ______, the caterer will...", meaning: "Hợp đồng, sự thỏa thuận", syn: "contract, mutual arrangement", exEn: "According to the agreement, the caterer will also supply the flowers for the event.", exVi: "Theo như thỏa thuận, nhà cung cấp tiệc cũng sẽ cung cấp hoa cho sự kiện." },
+                { word: "assurance", pos: "(n)", pronunciation: "/əˈʃʊrəns/", hint: "The associate gave his ______ that...", meaning: "Sự bảo đảm, cam đoan", syn: "guarantee, confidence", exEn: "The sales associate gave his assurance that the missing keyboard would be replaced.", exVi: "Nhân viên bán hàng đã đưa ra lời cam đoan rằng chiếc bàn phím bị thiếu sẽ được thay thế." },
+                { word: "cancellation", pos: "(n)", pronunciation: "/ˌkænsəˈleɪʃn/", hint: "The ______ of her flight caused...", meaning: "Sự hủy bỏ", syn: "annulment, stopping", exEn: "The cancellation of her flight caused her problems for the rest of the week.", exVi: "Việc hủy chuyến bay đã gây ra nhiều rắc rối cho cô ấy trong suốt thời gian còn lại của tuần." },
+                { word: "determine", pos: "(v)", pronunciation: "/dɪˈtɜːrmɪn/", hint: "I was unable to ______ if our company...", meaning: "Xác định, tìm ra", syn: "find out, influence", exEn: "After reading the contract, I was still unable to determine if our company was liable for back wages.", exVi: "Sau khi đọc hợp đồng, tôi vẫn không thể xác định liệu công ty chúng tôi có phải chịu trách nhiệm trả số tiền lương còn nợ hay không." },
+                { word: "engage", pos: "(v)", pronunciation: "/ɪnˈɡeɪdʒ/", hint: "Before ______ in a contract, both...", meaning: "Tham gia, thuê, mướn", syn: "participate, involve", exEn: "Before engaging in a contract, both parties should think carefully.", exVi: "Trước khi tham gia vào một hợp đồng, cả hai bên nên cân nhắc thật kỹ." },
+                { word: "establish", pos: "(v)", pronunciation: "/ɪˈstæblɪʃ/", hint: "The contract helped ______ a clear...", meaning: "Thiết lập, thành lập", syn: "institute, bring about", exEn: "The contract helped establish a clear working relationship between the two parties.", exVi: "Hợp đồng đã giúp thiết lập một mối quan hệ làm việc rõ ràng giữa hai bên." },
+                { word: "obligate", pos: "(v)", pronunciation: "/ˈɑːblɪɡeɪt/", hint: "The contractor was ______ by the contract...", meaning: "Bắt buộc, ép buộc (về pháp lý/bổn phận)", syn: "bind legally, compel", exEn: "The contractor was obligated by the contract to work 40 hours a week.", exVi: "Nhà thầu bị bắt buộc bởi hợp đồng phải làm việc 40 giờ một tuần." },
+                { word: "provision", pos: "(n)", pronunciation: "/prəˈvɪʒn/", hint: "The ______s of the contract specify...", meaning: "Điều khoản (hợp đồng), sự dự phòng", syn: "clause, condition", exEn: "The provisions of the contract specify that the rent must be paid on the first of each month.", exVi: "Các điều khoản của hợp đồng quy định rõ tiền thuê nhà phải được thanh toán vào ngày đầu tiên mỗi tháng." },
+                { word: "resolve", pos: "(v)", pronunciation: "/rɪˈzɑːlv/", hint: "...provide ways to ______ problems.", meaning: "Giải quyết", syn: "settle, solve", exEn: "Well-written contracts usually provide ways to resolve problems when they happen.", exVi: "Các hợp đồng được soạn thảo tốt thường cung cấp các cách để giải quyết vấn đề khi chúng xảy ra." },
+                { word: "specific", pos: "(adj)", pronunciation: "/spəˈsɪfɪk/", hint: "The customer's ______ requests were...", meaning: "Cụ thể, rõ ràng", syn: "particular, exact", exEn: "The customer's specific requests were written directly into the contract.", exVi: "Những yêu cầu cụ thể của khách hàng đã được ghi trực tiếp vào trong hợp đồng." }
+            ],
+            marketing: [
+                { word: "attract", pos: "(v)", pronunciation: "/əˈtrækt/", hint: "The new ad campaign is designed to ______ younger customers.", meaning: "Thu hút, lôi cuốn", syn: "allure, appeal to, draw", exEn: "The new ad campaign is designed to attract younger customers.", exVi: "Chiến dịch quảng cáo mới được thiết kế để thu hút khách hàng trẻ tuổi hơn." },
+                { word: "compare", pos: "(v)", pronunciation: "/kəmˈper/", hint: "It is important to ______ prices before buying a car.", meaning: "So sánh, đối chiếu", syn: "contrast, parallel", exEn: "It is important to compare prices before buying a car.", exVi: "Việc so sánh giá cả trước khi mua một chiếc ô tô là rất quan trọng." },
+                { word: "competition", pos: "(n)", pronunciation: "/ˌkɑːmpəˈtɪʃn/", hint: "The company faces stiff ______ from foreign rivals.", meaning: "Sự cạnh tranh, cuộc thi đấu", syn: "rivalry, contest", exEn: "The company faces stiff competition from foreign rivals.", exVi: "Công ty phải đối mặt với sự cạnh tranh gay gắt từ các đối thủ nước ngoài." },
+                { word: "consume", pos: "(v)", pronunciation: "/kənˈsuːm/", hint: "The new processor will ______ less power.", meaning: "Tiêu thụ, tiêu dùng", syn: "use up, absorb", exEn: "The new processor will consume less power.", exVi: "Bộ vi xử lý mới sẽ tiêu thụ ít điện năng hơn." },
+                { word: "convince", pos: "(v)", pronunciation: "/kənˈvɪns/", hint: "He managed to ______ the committee to back his plan.", meaning: "Thuyết phục", syn: "persuade, assure", exEn: "He managed to convince the committee to back his plan.", exVi: "Anh ấy đã thành công thuyết phục ủy ban ủng hộ kế hoạch của mình." },
+                { word: "currently", pos: "(adv)", pronunciation: "/ˈkɜːrəntli/", hint: "The product is ______ unavailable in stores.", meaning: "Hiện tại, hiện thời", syn: "now, at present", exEn: "The product is currently unavailable in stores.", exVi: "Sản phẩm này hiện tại không có sẵn tại các cửa hàng." },
+                { word: "fad", pos: "(n)", pronunciation: "/fæd/", hint: "Ripped jeans were just a passing ______.", meaning: "Trào lưu ngắn hạn, mốt nhất thời", syn: "craze, trend", exEn: "Ripped jeans were just a passing fad.", exVi: "Quần jean rách chỉ là một trào lưu nhất thời thoáng qua." },
+                { word: "inspiration", pos: "(n)", pronunciation: "/ˌɪnspəˈreɪʃn/", hint: "The artist drew ______ from nature.", meaning: "Nguồn cảm hứng", syn: "creativity, stimulation", exEn: "The artist drew inspiration from nature.", exVi: "Họa sĩ đã lấy nguồn cảm hứng từ thiên nhiên." },
+                { word: "market", pos: "(v / n)", pronunciation: "/ˈmɑːrkɪt/", hint: "They need to ______ their new product effectively.", meaning: "Tiếp thị, bán / Thị trường", syn: "sell, promote, merchandise", exEn: "They need to market their new product effectively.", exVi: "Họ cần phải tiếp thị sản phẩm mới của mình một cách hiệu quả." },
+                { word: "persuasion", pos: "(n)", pronunciation: "/pərˈsweɪʒn/", hint: "It took a lot of ______ to get him to agree.", meaning: "Sự thuyết phục", syn: "inducement, conversion", exEn: "It took a lot of persuasion to get him to agree.", exVi: "Phải mất rất nhiều công sức thuyết phục mới khiến anh ấy đồng ý." },
+                { word: "productive", pos: "(adj)", pronunciation: "/prəˈdʌktɪv/", hint: "The team had a very ______ meeting today.", meaning: "Năng suất, hiệu quả", syn: "fruitful, efficient", exEn: "The team had a very productive meeting today.", exVi: "Đội ngũ đã có một cuộc họp rất năng suất và hiệu quả ngày hôm nay." },
+                { word: "satisfaction", pos: "(n)", pronunciation: "/ˌsætɪsˈfækʃn/", hint: "Our goal is complete customer ______.", meaning: "Sự thỏa mãn, lòng hài lòng", syn: "contentment, fulfillment", exEn: "Our goal is complete customer satisfaction.", exVi: "Mục tiêu của chúng tôi là sự hài lòng tuyệt đối của khách hàng." }
+            ],
+            warranties: [
+                    { word: "characteristic", pos: "(n)", pronunciation: "/ˌkærəktəˈrɪstɪk/", hint: "One ______ of the smartphone is...", meaning: "Đặc điểm, đặc tính, đặc trưng", syn: "feature, trait, quality", exEn: "One characteristic of the store's warranty is that it covers both parts and labor.", exVi: "Một đặc điểm trong chính sách bảo hành của cửa hàng là nó bao gồm cả linh kiện và tiền công sửa chữa." },
+                    { word: "consequence", pos: "(n)", pronunciation: "/ˈkɑːnsəkwens/", hint: "As a ______ of not registering...", meaning: "Hậu quả, kết quả, hệ quả", syn: "result, outcome, effect", exEn: "As a consequence of not registering the product online, her warranty was voided.", exVi: "Hậu quả của việc không đăng ký sản phẩm trực tuyến là cô ấy bị mất quyền bảo hành." },
+                    { word: "consider", pos: "(v)", pronunciation: "/kənˈsɪdər/", hint: "You should ______ the terms of...", meaning: "Cân nhắc, xem xét, suy xét", syn: "think about, evaluate, ponder", exEn: "You should consider the terms of the warranty carefully before buying any expensive electronics.", exVi: "Bạn nên cân nhắc kỹ các điều khoản bảo hành trước khi mua bất kỳ đồ điện tử đắt tiền nào." },
+                    { word: "cover", pos: "(v)", pronunciation: "/ˈkʌvər/", hint: "Does this warranty ______ accidental damage?", meaning: "Bao gồm, bảo vệ, chi trả (trong bảo hành)", syn: "include, protect, insure", exEn: "Does this warranty cover accidental damage or only manufacturer defects?", exVi: "Gói bảo hành này có bao gồm hư hại do tai nạn không hay chỉ bảo hành lỗi từ nhà sản xuất?" },
+                    { word: "expiration", pos: "(n)", pronunciation: "/ˌekspəˈreɪʃn/", hint: "Please check the ______ date of...", meaning: "Sự hết hạn, sự hết hiệu lực", syn: "termination, end, expiry", exEn: "Please check the expiration date of your warranty before making a repair claim.", exVi: "Vui lòng kiểm tra ngày hết hạn bảo hành trước khi yêu cầu sửa chữa." },
+                    { word: "frequently", pos: "(adv)", pronunciation: "/ˈfriːkwəntli/", hint: "Appliances ______ come with a one-year...", meaning: "Thường xuyên, phổ biến", syn: "often, regularly, repeatedly", exEn: "Household appliances frequently come with a one-year limited warranty.", exVi: "Các thiết bị gia dụng thường đi kèm với gói bảo hành giới hạn một năm." },
+                    { word: "imply", pos: "(v)", pronunciation: "/ɪmˈplaɪ/", hint: "The advertisement seems to ______ that...", meaning: "Ngụ ý, ám chỉ, hàm ý", syn: "suggest, hint, signify", exEn: "The advertisement seems to imply that the warranty is unconditional, but it actually has rules.", exVi: "Quảng cáo dường như ngụ ý rằng chính sách bảo hành là vô điều kiện, nhưng thực ra nó lại có những quy định riêng." },
+                    { word: "promise", pos: "(n / v)", pronunciation: "/ˈprɑːmɪs/", hint: "A warranty is a ______ to...", meaning: "Lời hứa, sự cam kết; hứa hẹn", syn: "pledge, commitment, guarantee", exEn: "A warranty is a seller's promise to stand behind the quality of its products.", exVi: "Bảo hành là lời cam kết của người bán nhằm đảm bảo cho chất lượng sản phẩm của họ." },
+                    { word: "protect", pos: "(v)", pronunciation: "/prəˈtekt/", hint: "The service plan will ______ your...", meaning: "Bảo vệ, che chở", syn: "guard, shield, defend", exEn: "The extended service plan will protect your computer from unexpected hardware breakdown costs.", exVi: "Gói dịch vụ mở rộng sẽ bảo vệ máy tính của bạn khỏi các chi phí hỏng hóc phần cứng đột xuất." },
+                    { word: "reputation", pos: "(n)", pronunciation: "/ˌrepjuˈteɪʃn/", hint: "The company has a good ______ for...", meaning: "Danh tiếng, uy tín", syn: "fame, status, standing", exEn: "The company has a good reputation for honoring its warranties without any hassle.", exVi: "Công ty có danh tiếng tốt trong việc thực hiện đúng cam kết bảo hành mà không gây phiền hà cho khách hàng." },
+                    { word: "require", pos: "(v)", pronunciation: "/rɪˈkwaɪər/", hint: "The policy may ______ you to...", meaning: "Yêu cầu, đòi hỏi", syn: "demand, need, ask for", exEn: "The warranty policy may require you to present the original receipt when requesting a service.", exVi: "Chính sách bảo hành có thể yêu cầu bạn phải xuất trình hóa đơn gốc khi yêu cầu dịch vụ." },
+                    { word: "variety", pos: "(n)", pronunciation: "/vəˈraɪəti/", hint: "The store offers a ______ of...", meaning: "Sự đa dạng, nhiều loại", syn: "diversity, selection, assortment", exEn: "The store offers a variety of warranty options to suit different customer needs.", exVi: "Cửa hàng cung cấp nhiều lựa chọn bảo hành khác nhau để phù hợp với nhu cầu của từng khách hàng." }
+            ],
+            business_planning: [
+                { word: "address", pos: "(v)", pronunciation: "/əˈdres/", hint: "The business plan must ______ potential financial risks.", meaning: "Giải quyết, xử lý (vấn đề)", syn: "tackle, handle, deal with", exEn: "The business plan must address potential financial risks.", exVi: "Kế hoạch kinh doanh phải giải quyết các rủi ro tài chính tiềm ẩn." },
+                { word: "avoid", pos: "(v)", pronunciation: "/əˈvɔɪd/", hint: "Careful planning helps startups ______ common pitfalls.", meaning: "Tránh, né tránh", syn: "evade, shun, bypass", exEn: "Careful planning helps startups avoid common pitfalls.", exVi: "Lập kế hoạch cẩn thận giúp các công ty khởi nghiệp tránh được những bẫy phổ biến." },
+                { word: "demonstrate", pos: "(v)", pronunciation: "/ˈdemənstreɪt/", hint: "You need to ______ how your product solves a real problem.", meaning: "Chứng minh, giải thích, chứng tỏ", syn: "show, display, prove", exEn: "You need to demonstrate how your product solves a real problem.", exVi: "Bạn cần chứng minh cách sản phẩm của mình giải quyết một vấn đề thực tế." },
+                { word: "develop", pos: "(v)", pronunciation: "/dɪˈveləp/", hint: "The company plans to ______ a new marketing strategy next month.", meaning: "Phát triển, xây dựng", syn: "grow, expand, create", exEn: "The company plans to develop a new marketing strategy next month.", exVi: "Công ty có kế hoạch phát triển một chiến lược tiếp thị mới vào tháng tới." },
+                { word: "evaluate", pos: "(v)", pronunciation: "/ɪˈvæljueɪt/", hint: "We should ______ the feasibility of this project before investing.", meaning: "Đánh giá, định giá", syn: "assess, appraise, estimate", exEn: "We should evaluate the feasibility of this project before investing.", exVi: "Chúng ta nên đánh giá tính khả thi của dự án này trước khi đầu tư." },
+                { word: "gather", pos: "(v)", pronunciation: "/ˈɡæðər/", hint: "They need to ______ market data before launching the product.", meaning: "Thu thập, tập hợp", syn: "collect, accumulate, assemble", exEn: "They need to gather market data before launching the product.", exVi: "Họ cần thu thập dữ liệu thị trường trước khi tung sản phẩm ra." },
+                { word: "offer", pos: "(v / n)", pronunciation: "/ˈɔːfər/", hint: "We ______ customized solutions to meet our clients' needs.", meaning: "Cung cấp, đưa ra đề nghị / Lời đề nghị", syn: "provide, propose, present", exEn: "We offer customized solutions to meet our clients' needs.", exVi: "Chúng tôi cung cấp các giải pháp tùy chỉnh để đáp ứng nhu cầu của khách hàng." },
+                { word: "primarily", pos: "(adv)", pronunciation: "/praɪˈmerəli/", hint: "The company focuses ______ on digital services.", meaning: "Chủ yếu, chính", syn: "mainly, chiefly, principally", exEn: "The company focuses primarily on digital services.", exVi: "Công ty tập trung chủ yếu vào các dịch vụ kỹ thuật số." },
+                { word: "risk", pos: "(n / v)", pronunciation: "/rɪsk/", hint: "Starting a new business involves a high level of ______.", meaning: "Rủi ro / Liều mạng, mạo hiểm", syn: "danger, hazard, jeopardy", exEn: "Starting a new business involves a high level of risk.", exVi: "Bắt đầu một doanh nghiệp mới luôn đi kèm với mức độ rủi ro cao." },
+                { word: "strategy", pos: "(n)", hint: "A clear long-term ______ is essential for sustainable growth.", pronunciation: "/ˈstrætədʒi/", meaning: "Chiến lược", syn: "plan, policy, tactic", exEn: "A clear long-term strategy is essential for sustainable growth.", exVi: "Một chiến lược dài hạn rõ ràng là thiết yếu cho sự tăng trưởng bền vững." },
+                { word: "strong", pos: "(adj)", pronunciation: "/strɔːŋ/", hint: "The brand has a ______ presence in the local market.", meaning: "Mạnh mẽ, vững chắc", syn: "robust, powerful, solid", exEn: "The brand has a strong presence in the local market.", exVi: "Thương hiệu có một sự hiện diện mạnh mẽ tại thị trường địa phương." },
+                { word: "substitution", pos: "(n)", pronunciation: "/ˌsʌbstɪˈtuːʃn/", hint: "The ______ of automation for manual labor saved them money.", meaning: "Sự thay thế", syn: "replacement, exchange, swap", exEn: "The substitution of automation for manual labor saved them money.", exVi: "Sự thay thế lao động chân tay bằng tự động hóa đã giúp họ tiết kiệm tiền." }
+            ],
+            conference: [
+                { word: "accommodate", pos: "(v)", pronunciation: "/əˈkɑːmədeɪt/", hint: "The main hall can ______ up to 500 attendees.", meaning: "Chứa được, đáp ứng nhu cầu, cung cấp chỗ ở", syn: "house, hold, fit", exEn: "The main hall can accommodate up to 500 attendees for the keynote speech.", exVi: "Hội trường chính có thể chứa được tới 500 người tham dự bài phát biểu khai mạc." },
+                { word: "arrangement", pos: "(n)", pronunciation: "/əˈreɪndʒmənt/", hint: "They made a special ______ for seating.", meaning: "Sự sắp xếp, sự dàn xếp", syn: "setup, preparation, planning", exEn: "They made a special arrangement for seating to ensure proper social distancing.", exVi: "Họ đã có một sự sắp xếp chỗ ngồi đặc biệt để đảm bảo khoảng cách an toàn." },
+                { word: "association", pos: "(n)", pronunciation: "/əˌsoʊʃiˈeɪʃn/", hint: "The annual conference is organized by the medical ______.", meaning: "Hiệp hội, tổ chức, sự liên kết", syn: "organization, union, alliance", exEn: "The annual conference is organized by the national medical association.", exVi: "Hội nghị thường niên được tổ chức bởi hiệp hội y khoa quốc gia." },
+                { word: "attend", pos: "(v)", pronunciation: "/əˈtend/", hint: "Over two hundred professionals are expected to ______.", meaning: "Tham dự, có mặt", syn: "be present at, go to", exEn: "Over two hundred professionals are expected to attend the workshop.", exVi: "Hơn hai trăm chuyên gia dự kiến sẽ tham dự buổi hội thảo." },
+                { word: "get in touch", pos: "(v)", pronunciation: "/ɡet ɪn tʌtʃ/", hint: "Please ______ with the organizer if you need a projector.", meaning: "Liên lạc, liên hệ với", syn: "contact, communicate with", exEn: "Please get in touch with the organizer if you need a projector for your talk.", exVi: "Vui lòng liên hệ với ban tổ chức nếu bạn cần máy chiếu cho bài phát biểu của mình." },
+                { word: "hold", pos: "(v)", pronunciation: "/hoʊld/", hint: "The committee decided to ______ the conference in October.", meaning: "Tổ chức, tiến hành", syn: "conduct, organize, host", exEn: "The committee decided to hold the conference in October instead of September.", exVi: "Ủy ban đã quyết định tổ chức hội nghị vào tháng Mười thay vì tháng Chín." },
+                { word: "location", pos: "(n)", pronunciation: "/loʊˈkeɪʃn/", hint: "The convention center is an ideal ______.", meaning: "Địa điểm, vị trí", syn: "venue, site, place", exEn: "The convention center is an ideal location for this international event.", exVi: "Trung tâm hội nghị là một địa điểm lý tưởng cho sự kiện quốc tế này." },
+                { word: "overcrowded", pos: "(adj)", pronunciation: "/ˌoʊvərˈkraʊdɪd/", hint: "The seminar room became ______ due to high interest.", meaning: "Quá tải, quá đông đúc", syn: "jam-packed, congested", exEn: "The seminar room became overcrowded due to high interest in the topic.", exVi: "Phòng hội thảo đã trở nên quá đông đúc do lượng người quan tâm lớn đến chủ đề này." },
+                { word: "register", pos: "(v / n)", pronunciation: "/ˈredʒɪstər/", hint: "Participants must ______ online by next Friday.", meaning: "Đăng ký / Danh sách đăng ký", syn: "sign up, enroll, list", exEn: "Participants must register online by next Friday to get the early-bird discount.", exVi: "Người tham gia phải đăng ký trực tuyến trước thứ Sáu tới để được giảm giá vé sớm." },
+                { word: "select", pos: "(v)", pronunciation: "/sɪˈlekt/", hint: "The board will ______ the best proposals for the presentation.", meaning: "Lựa chọn, tuyển chọn", syn: "choose, pick, opt for", exEn: "The board will select the best proposals for the presentation.", exVi: "Ban giám đốc sẽ lựa chọn những đề xuất tốt nhất cho buổi thuyết trình." },
+                { word: "session", pos: "(n)", pronunciation: "/ˈseʃn/", hint: "The afternoon ______ will focus on networking.", meaning: "Phiên họp, buổi học, buổi hội chẩn", syn: "period, meeting, assembly", exEn: "The afternoon session will focus on networking and collaboration.", exVi: "Phiên họp buổi chiều sẽ tập trung vào việc kết nối và hợp tác." },
+                { word: "take part in", pos: "(v)", pronunciation: "/teɪk pɑːrt ɪn/", hint: "Everyone is encouraged to ______ the discussion.", meaning: "Tham gia vào", syn: "participate in, join, engage in", exEn: "Everyone is encouraged to take part in the panel discussion.", exVi: "Mọi người đều được khuyến khích tham gia vào buổi thảo luận nhóm." }
+            ],
+            computer_and_internets: [
+                { word: "access", pos: "(v / n)", pronunciation: "/ˈækses/", hint: "You need a password to ______ the network.", meaning: "Truy cập, tiếp cận / Quyền truy cập", syn: "enter, approach, admission", exEn: "You need a password to access the network.", exVi: "Bạn cần có mật khẩu để truy cập vào hệ thống mạng." },
+                { word: "allocate", pos: "(v)", pronunciation: "/ˈæləkeɪt/", hint: "The operating system will ______ memory to each application.", meaning: "Phân bổ, cấp phát", syn: "assign, distribute, allot", exEn: "The operating system will allocate memory to each application dynamically.", exVi: "Hệ điều hành sẽ phân bổ bộ nhớ cho từng ứng dụng một cách linh hoạt." },
+                { word: "compatible", pos: "(adj)", pronunciation: "/kəmˈpætəbl/", hint: "This software is not ______ with older operating systems.", meaning: "Tương thích, hợp nhau", syn: "matching, harmonious, adaptable", exEn: "This software is not compatible with older operating systems.", exVi: "Phần mềm này không tương thích với các hệ điều hành cũ hơn." },
+                { word: "delete", pos: "(v)", pronunciation: "/dɪˈliːt/", hint: "Be careful not to ______ important system files.", meaning: "Xóa, loại bỏ", syn: "erase, remove, wipe out", exEn: "Be careful not to delete important system files.", exVi: "Hãy cẩn thận để không xóa các tập tin hệ thống quan trọng." },
+                { word: "display", pos: "(v / n)", pronunciation: "/dɪˈspleɪ/", hint: "The monitor will ______ an error message.", meaning: "Hiển thị, trưng bày / Màn hình, sự hiển thị", syn: "show, exhibit, present", exEn: "The monitor will display an error message if the connection fails.", exVi: "Màn hình sẽ hiển thị thông báo lỗi nếu kết nối thất bại." },
+                { word: "duplicate", pos: "(v / n)", pronunciation: "/ˈduːplɪkeɪt/", hint: "Please do not ______ files unnecessarily to save space.", meaning: "Sao chép, làm nhân bản / Bản sao", syn: "copy, replicate, clone", exEn: "Please do not duplicate files unnecessarily to save disk space.", exVi: "Vui lòng không sao chép tập tin không cần thiết để tiết kiệm dung lượng đĩa." },
+                { word: "failure", pos: "(n)", pronunciation: "/ˈfeɪljər/", hint: "A power ______ caused the server to crash.", meaning: "Sự thất bại, sự hỏng hóc, lỗi hệ thống", syn: "breakdown, malfunction, fault", exEn: "A power failure caused the server to crash unexpectedly.", exVi: "Sự cố mất điện đã khiến máy chủ bị sập đột ngột." },
+                { word: "figure out", pos: "(v)", pronunciation: "/ˈfɪɡjər aʊt/", hint: "The IT technician is trying to ______ the cause of the glitch.", meaning: "Tìm hiểu, giải quyết, hiểu ra", syn: "understand, solve, discover", exEn: "The IT technician is trying to figure out the cause of the glitch.", exVi: "Kỹ thuật viên CNTT đang cố gắng tìm ra nguyên nhân của lỗi nhỏ này." },
+                { word: "ignore", pos: "(v)", pronunciation: "/ɪɡˈnɔːr/", hint: "Do not ______ security alerts from your antivirus.", meaning: "Bỏ qua, lờ đi", syn: "disregard, neglect, overlook", exEn: "Do not ignore security alerts from your antivirus software.", exVi: "Không được bỏ qua các cảnh báo bảo mật từ phần mềm diệt virus của bạn." },
+                { word: "search", pos: "(v / n)", pronunciation: "/sɜːrtʃ/", hint: "You can ______ for the document using keywords.", meaning: "Tìm kiếm / Sự tìm kiếm", syn: "seek, hunt, look for", exEn: "You can search for the document using specific keywords.", exVi: "Bạn có thể tìm kiếm tài liệu đó bằng cách sử dụng các từ khóa cụ thể." },
+                { word: "shut down", pos: "(v)", pronunciation: "/ʃʌt daʊn/", hint: "Remember to ______ the computer before leaving.", meaning: "Tắt máy, đóng cửa, ngừng hoạt động", syn: "turn off, close, deactivate", exEn: "Remember to shut down the computer before leaving the office.", exVi: "Hãy nhớ tắt máy tính trước khi rời khỏi văn phòng." },
+                { word: "warning", pos: "(n)", pronunciation: "/ˈwɔːrnɪŋ/", hint: "The system issued a ______ about low disk space.", meaning: "Lời cảnh báo, sự báo trước", syn: "alert, caution, notice", exEn: "The system issued a warning about low disk space.", exVi: "Hệ thống đã đưa ra lời cảnh báo về việc dung lượng đĩa còn thấp." }
+            ],
+            office_technology: [
+            { word: "affordable", pos: "(adj)", pronunciation: "/əˈfɔːrdəbl/", hint: "The company is looking for an ______ laser printer.", meaning: "Giá cả phải chăng, có đủ khả năng chi trả", syn: "inexpensive, reasonable, low-cost", exEn: "The company is looking for an affordable laser printer for the small office.", exVi: "Công ty đang tìm kiếm một chiếc máy in laser có giá cả phải chăng cho văn phòng nhỏ." },
+            { word: "as needed", pos: "(adv)", pronunciation: "/æz ˈniːdɪd/", hint: "The software updates will be installed ______.", meaning: "Khi cần thiết, khi có nhu cầu", syn: "as required, whenever necessary", exEn: "The software updates will be installed as needed to fix system bugs.", exVi: "Các bản cập nhật phần mềm sẽ được cài đặt khi cần thiết để khắc phục lỗi hệ thống." },
+            { word: "be in charge of", pos: "(v)", pronunciation: "/biː ɪn tʃɑːrdʒ ʌv/", hint: "She will ______ managing the new IT network.", meaning: "Chịu trách nhiệm, phụ trách", syn: "be responsible for, run, oversee", exEn: "She will be in charge of managing the new IT network.", exVi: "Cô ấy sẽ phụ trách quản lý hệ thống mạng CNTT mới." },
+            { word: "capacity", pos: "(n)", pronunciation: "/kəˈpæsəti/", hint: "The server has a storage ______ of 10 terabytes.", meaning: "Sức chứa, dung tích, công suất", syn: "volume, storage, ability", exEn: "The server has a storage capacity of 10 terabytes.", exVi: "Máy chủ có dung lượng lưu trữ lên tới 10 terabytes." },
+            { word: "durable", pos: "(adj)", pronunciation: "/ˈdʊrəbl/", hint: "We need to buy ______ office furniture that lasts.", meaning: "Bền bỉ, lâu bền", syn: "long-lasting, sturdy, robust", exEn: "We need to buy durable office equipment that can withstand daily use.", exVi: "Chúng tôi cần mua thiết bị văn phòng bền bỉ có thể chịu được việc sử dụng hàng ngày." },
+            { word: "initiative", pos: "(n)", pronunciation: "/ɪˈnɪʃətɪv/", hint: "The IT department took the ______ to upgrade the security.", meaning: "Sáng kiến, sự chủ động", syn: "enterprise, resourcefulness, lead", exEn: "The IT department took the initiative to upgrade the security system.", exVi: "Bộ phận CNTT đã chủ động đưa ra sáng kiến nâng cấp hệ thống bảo mật." },
+            { word: "physically", pos: "(adv)", pronunciation: "/ˈfɪzɪkli/", hint: "The backup drives are ______ stored in a secure vault.", meaning: "Về mặt thể chất, vật lý", syn: "bodily, materially", exEn: "The backup drives are physically stored in a secure server room vault.", exVi: "Các ổ đĩa sao lưu được lưu trữ vật lý trong một hầm phòng máy chủ an toàn." },
+            { word: "provider", pos: "(n)", pronunciation: "/prəˈvaɪdər/", hint: "They switched to a new internet service ______.", meaning: "Nhà cung cấp", syn: "supplier, vendor, purveyor", exEn: "They switched to a new internet service provider to get faster speeds.", exVi: "Họ đã chuyển sang một nhà cung cấp dịch vụ internet mới để có tốc độ nhanh hơn." },
+            { word: "recur", pos: "(v)", pronunciation: "/rɪˈkɜːr/", hint: "The system glitch seems to ______ every Monday.", meaning: "Lặp lại, tái diễn", syn: "repeat, return, reappear", exEn: "The system glitch seems to recur every time we run the update.", exVi: "Lỗi hệ thống dường như tái diễn mỗi khi chúng tôi chạy bản cập nhật." },
+            { word: "reduction", pos: "(n)", pronunciation: "/rɪˈdʌkʃn/", hint: "Cloud computing led to a big ______ in paper costs.", meaning: "Sự giảm bớt, sự thu nhỏ", syn: "decrease, drop, cut", exEn: "The installation of new copiers led to a significant reduction in paper waste.", exVi: "Việc lắp đặt các máy photocopy mới đã giúp giảm đáng kể lượng giấy lãng phí." },
+            { word: "stay on top of", pos: "(v)", pronunciation: "/steɪ ɑːn tɑːp ʌv/", hint: "It is important to ______ new tech trends.", meaning: "Nắm bắt thông tin kịp thời, kiểm soát tốt", syn: "keep up with, be informed about", exEn: "The IT manager works hard to stay on top of the latest technology trends.", exVi: "Quản lý CNTT làm việc chăm chỉ để luôn nắm bắt kịp thời các xu hướng công nghệ mới nhất." },
+            { word: "stock", pos: "(n / v)", pronunciation: "/stɑːk/", hint: "The office manager needs to ______ up on ink cartridges.", meaning: "Kho dự trữ, hàng hóa / Tích trữ", syn: "supply, inventory, store", exEn: "We keep a large stock of toner cartridges in the supply closet.", exVi: "Chúng tôi giữ một lượng lớn hộp mực dự trữ trong tủ đồ dùng." }
+        ]
+
+
+
+
+
+
+        };
+
+        let currentActiveCards = [];
+        let currentIndex = 0;
+        const cardElement = document.getElementById('flashcard');
+
+        function loadTopic(topicName) {
+            currentActiveCards = [...dataset[topicName]];
+            currentIndex = 0;
+            renderCard();
+        }
+
+        function renderCard() {
+            const data = currentActiveCards[currentIndex];
+            
+            document.getElementById('f-word').innerText = data.word;
+            document.getElementById('f-pos').innerText = data.pos;
+            document.getElementById('f-pron').innerText = data.pronunciation;
+            document.getElementById('f-hint').innerText = "💡 Hint: " + data.hint;
+            
+            document.getElementById('b-meaning').innerText = data.meaning;
+            document.getElementById('b-syn').innerText = data.syn;
+            document.getElementById('b-ex-en').innerText = data.exEn;
+            document.getElementById('b-ex-vi').innerText = data.exVi;
+
+            document.getElementById('counter').innerText = `Card ${currentIndex + 1} of ${currentActiveCards.length}`;
+            const progressPercent = ((currentIndex + 1) / currentActiveCards.length) * 100;
+            document.getElementById('progressBar').style.width = `${progressPercent}%`;
+
+            document.getElementById('prevBtn').disabled = currentIndex === 0;
+            document.getElementById('nextBtn').disabled = currentIndex === currentActiveCards.length - 1;
+        }
+
+        function flipCard() {
+            cardElement.classList.toggle('is-flipped');
+        }
+
+        document.getElementById('topicSelect').addEventListener('change', function() {
+            resetFlipState(() => {
+                loadTopic(this.value);
+            });
+        });
+
+        function shuffleCards() {
+            resetFlipState(() => {
+                for (let i = currentActiveCards.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [currentActiveCards[i], currentActiveCards[j]] = [currentActiveCards[j], currentActiveCards[i]];
+                }
+                currentIndex = 0;
+                renderCard();
+            });
+        }
+
+        function nextCard() {
+            if (currentIndex < currentActiveCards.length - 1) {
+                resetFlipState(() => {
+                    currentIndex++;
+                    renderCard();
+                });
+            }
+        }
+
+        function prevCard() {
+            if (currentIndex > 0) {
+                resetFlipState(() => {
+                    currentIndex--;
+                    renderCard();
+                });
+            }
+        }
+
+        function resetFlipState(callback) {
+            if (cardElement.classList.contains('is-flipped')) {
+                cardElement.classList.remove('is-flipped');
+                setTimeout(callback, 250);
+            } else {
+                callback();
+            }
+        }
+
+        loadTopic('contracts');
+    </script>
+</body>
+</html>
