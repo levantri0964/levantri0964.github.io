@@ -2009,7 +2009,512 @@
               "exVi": "Mua sắm trực tuyến đã trở thành một xu hướng lớn trong những năm gần đây."
             }
           ]
-        }
+        },
+        {
+          "id": "ordering_supplies",
+          "label": "17. Ordering Supplies",
+          "cards": [
+              {
+              "word": "diversify",
+              "pos": "(v)",
+              "pronunciation": "/daɪˈvɜːrsɪfaɪ/",
+              "hint": "The company plans to ______ its range of office products.",
+              "meaning": "Đa dạng hóa",
+              "syn": "vary, broaden, expand",
+              "exEn": "The company plans to diversify its range of office products.",
+              "exVi": "Công ty dự định đa dạng hóa danh mục sản phẩm văn phòng."
+              },
+              {
+              "word": "enterprise",
+              "pos": "(n)",
+              "pronunciation": "/ˈentərpraɪz/",
+              "hint": "The small ______ supplies equipment to local businesses.",
+              "meaning": "Doanh nghiệp; dự án kinh doanh",
+              "syn": "business, company, venture",
+              "exEn": "The small enterprise supplies equipment to local businesses.",
+              "exVi": "Doanh nghiệp nhỏ cung cấp thiết bị cho các doanh nghiệp địa phương."
+              },
+              {
+              "word": "essentially",
+              "pos": "(adv)",
+              "pronunciation": "/ɪˈsenʃəli/",
+              "hint": "The two products are ______ the same.",
+              "meaning": "Về cơ bản, thực chất",
+              "syn": "basically, fundamentally, mainly",
+              "exEn": "The two products are essentially the same, although their prices differ.",
+              "exVi": "Hai sản phẩm về cơ bản giống nhau, mặc dù giá của chúng khác nhau."
+              },
+              {
+              "word": "everyday",
+              "pos": "(adj)",
+              "pronunciation": "/ˈevrideɪ/",
+              "hint": "We order ______ office supplies in bulk.",
+              "meaning": "Hằng ngày, thông thường",
+              "syn": "daily, routine, ordinary",
+              "exEn": "We order everyday office supplies in bulk to reduce costs.",
+              "exVi": "Chúng tôi đặt mua các vật dụng văn phòng hằng ngày với số lượng lớn để giảm chi phí."
+              },
+              {
+              "word": "function",
+              "pos": "(v)",
+              "pronunciation": "/ˈfʌŋkʃən/",
+              "hint": "The new printer does not ______ properly.",
+              "meaning": "Hoạt động, vận hành; chức năng",
+              "syn": "operate, work, perform",
+              "exEn": "The new printer does not function properly, so we need to replace it.",
+              "exVi": "Máy in mới không hoạt động đúng cách, vì vậy chúng tôi cần thay thế nó."
+              },
+              {
+              "word": "maintain",
+              "pos": "(v)",
+              "pronunciation": "/meɪnˈteɪn/",
+              "hint": "The purchasing department must ______ an adequate supply of paper.",
+              "meaning": "Duy trì, bảo dưỡng",
+              "syn": "preserve, sustain, keep",
+              "exEn": "The purchasing department must maintain an adequate supply of paper.",
+              "exVi": "Bộ phận thu mua phải duy trì nguồn cung giấy đầy đủ."
+              },
+              {
+              "word": "obtain",
+              "pos": "(v)",
+              "pronunciation": "/əbˈteɪn/",
+              "hint": "Please ______ approval before placing the order.",
+              "meaning": "Có được, đạt được, thu được",
+              "syn": "acquire, get, secure",
+              "exEn": "Please obtain approval from your supervisor before placing the order.",
+              "exVi": "Vui lòng xin sự phê duyệt từ người giám sát trước khi đặt hàng."
+              },
+              {
+              "word": "prerequisite",
+              "pos": "(n)",
+              "pronunciation": "/ˌpriːˈrekwəzɪt/",
+              "hint": "Managerial approval is a ______ for large purchases.",
+              "meaning": "Điều kiện tiên quyết",
+              "syn": "requirement, precondition, necessity",
+              "exEn": "Managerial approval is a prerequisite for large purchases.",
+              "exVi": "Sự phê duyệt của quản lý là điều kiện tiên quyết đối với các đơn mua hàng lớn."
+              },
+              {
+              "word": "quality",
+              "pos": "(n)",
+              "pronunciation": "/ˈkwɑːləti/",
+              "hint": "We check the ______ of all supplies before accepting delivery.",
+              "meaning": "Chất lượng",
+              "syn": "standard, grade, caliber",
+              "exEn": "We check the quality of all supplies before accepting delivery.",
+              "exVi": "Chúng tôi kiểm tra chất lượng của tất cả vật tư trước khi chấp nhận giao hàng."
+              },
+              {
+              "word": "smooth",
+              "pos": "(adj)",
+              "pronunciation": "/smuːð/",
+              "hint": "The new ordering system ensures a ______ purchasing process.",
+              "meaning": "Suôn sẻ, trôi chảy, êm ái",
+              "syn": "efficient, seamless, trouble-free",
+              "exEn": "The new ordering system ensures a smooth purchasing process.",
+              "exVi": "Hệ thống đặt hàng mới đảm bảo quy trình mua sắm diễn ra suôn sẻ."
+              },
+              {
+              "word": "source",
+              "pos": "(n)",
+              "pronunciation": "/sɔːrs/",
+              "hint": "We need to find a reliable ______ for office equipment.",
+              "meaning": "Nguồn cung cấp, nguồn",
+              "syn": "supplier, provider, origin",
+              "exEn": "We need to find a reliable source for office equipment.",
+              "exVi": "Chúng tôi cần tìm một nguồn cung cấp thiết bị văn phòng đáng tin cậy."
+              },
+              {
+              "word": "stationery",
+              "pos": "(n)",
+              "pronunciation": "/ˈsteɪʃəneri/",
+              "hint": "The assistant ordered pens, folders, and other ______.",
+              "meaning": "Văn phòng phẩm",
+              "syn": "office supplies, writing materials",
+              "exEn": "The assistant ordered pens, folders, and other stationery for the office.",
+              "exVi": "Trợ lý đã đặt mua bút, bìa hồ sơ và các loại văn phòng phẩm khác cho văn phòng."
+              }
+              ]
+          },
+          {
+          "id": "shipping",
+          "label": "18. Shipping",
+          "cards": [
+              {
+              "word": "accurately",
+              "pos": "(adv)",
+              "pronunciation": "/ˈækjərətli/",
+              "hint": "Please record the delivery address ______.",
+              "meaning": "Một cách chính xác",
+              "syn": "correctly, precisely, exactly",
+              "exEn": "Please record the delivery address accurately to avoid shipping errors.",
+              "exVi": "Vui lòng ghi địa chỉ giao hàng chính xác để tránh sai sót vận chuyển."
+              },
+              {
+              "word": "carrier",
+              "pos": "(n)",
+              "pronunciation": "/ˈkæriər/",
+              "hint": "The shipping ______ will deliver the package tomorrow.",
+              "meaning": "Đơn vị vận chuyển, hãng vận tải",
+              "syn": "transport company, courier, shipper",
+              "exEn": "The shipping carrier will deliver the package tomorrow morning.",
+              "exVi": "Đơn vị vận chuyển sẽ giao bưu kiện vào sáng mai."
+              },
+              {
+              "word": "fulfill",
+              "pos": "(v)",
+              "pronunciation": "/fʊlˈfɪl/",
+              "hint": "The warehouse must ______ all customer orders on time.",
+              "meaning": "Thực hiện, hoàn thành; đáp ứng",
+              "syn": "complete, satisfy, carry out",
+              "exEn": "The warehouse must fulfill all customer orders on time.",
+              "exVi": "Kho hàng phải hoàn thành tất cả đơn đặt hàng của khách đúng hạn."
+              },
+              {
+              "word": "catalog",
+              "pos": "(n)",
+              "pronunciation": "/ˈkætəlɔːɡ/",
+              "hint": "Customers can select products from our online ______.",
+              "meaning": "Danh mục sản phẩm, quyển ca-ta-lô",
+              "syn": "product list, directory, inventory list",
+              "exEn": "Customers can select products from our online catalog.",
+              "exVi": "Khách hàng có thể chọn sản phẩm từ danh mục trực tuyến của chúng tôi."
+              },
+              {
+              "word": "integral",
+              "pos": "(adj)",
+              "pronunciation": "/ˈɪntɪɡrəl/",
+              "hint": "Packaging is an ______ part of the shipping process.",
+              "meaning": "Thiết yếu, không thể thiếu, cấu thành một phần",
+              "syn": "essential, necessary, fundamental",
+              "exEn": "Proper packaging is an integral part of the shipping process.",
+              "exVi": "Việc đóng gói đúng cách là một phần không thể thiếu của quy trình vận chuyển."
+              },
+              {
+              "word": "inventory",
+              "pos": "(n)",
+              "pronunciation": "/ˈɪnvəntɔːri/",
+              "hint": "The warehouse manager checks the ______ every week.",
+              "meaning": "Hàng tồn kho; bản kiểm kê",
+              "syn": "stock, supplies, merchandise",
+              "exEn": "The warehouse manager checks the inventory every week.",
+              "exVi": "Quản lý kho kiểm tra hàng tồn kho mỗi tuần."
+              },
+              {
+              "word": "minimize",
+              "pos": "(v)",
+              "pronunciation": "/ˈmɪnɪmaɪz/",
+              "hint": "The company uses better packaging to ______ shipping costs.",
+              "meaning": "Giảm thiểu, tối thiểu hóa",
+              "syn": "reduce, lessen, limit",
+              "exEn": "The company uses better packaging to minimize shipping costs.",
+              "exVi": "Công ty sử dụng bao bì tốt hơn để giảm thiểu chi phí vận chuyển."
+              },
+              {
+              "word": "on hand",
+              "pos": "(phr)",
+              "pronunciation": "/ɑːn hænd/",
+              "hint": "We have enough packing materials ______ to ship today's orders.",
+              "meaning": "Có sẵn, có trong kho",
+              "syn": "available, in stock, at one's disposal",
+              "exEn": "We have enough packing materials on hand to ship today's orders.",
+              "exVi": "Chúng tôi có sẵn đủ vật liệu đóng gói để gửi các đơn hàng hôm nay."
+              },
+              {
+              "word": "remember",
+              "pos": "(v)",
+              "pronunciation": "/rɪˈmembər/",
+              "hint": "Please ______ to attach the shipping label to each box.",
+              "meaning": "Nhớ, ghi nhớ",
+              "syn": "recall, keep in mind, not forget",
+              "exEn": "Please remember to attach the shipping label to each box.",
+              "exVi": "Vui lòng nhớ dán nhãn vận chuyển lên từng thùng hàng."
+              },
+              {
+              "word": "ship",
+              "pos": "(v)",
+              "pronunciation": "/ʃɪp/",
+              "hint": "We will ______ the replacement parts by express delivery.",
+              "meaning": "Gửi hàng, vận chuyển hàng",
+              "syn": "dispatch, send, transport",
+              "exEn": "We will ship the replacement parts by express delivery.",
+              "exVi": "Chúng tôi sẽ gửi các linh kiện thay thế bằng dịch vụ chuyển phát nhanh."
+              },
+              {
+              "word": "sufficiently",
+              "pos": "(adv)",
+              "pronunciation": "/səˈfɪʃəntli/",
+              "hint": "All fragile items must be ______ protected before shipping.",
+              "meaning": "Đầy đủ, đủ mức cần thiết",
+              "syn": "adequately, enough, properly",
+              "exEn": "All fragile items must be sufficiently protected before shipping.",
+              "exVi": "Tất cả hàng dễ vỡ phải được bảo vệ đầy đủ trước khi vận chuyển."
+              },
+              {
+              "word": "supply",
+              "pos": "(v)",
+              "pronunciation": "/səˈplaɪ/",
+              "hint": "The manufacturer will ______ the parts needed for production.",
+              "meaning": "Cung cấp; nguồn cung",
+              "syn": "provide, furnish, deliver",
+              "exEn": "The manufacturer will supply the parts needed for production.",
+              "exVi": "Nhà sản xuất sẽ cung cấp các linh kiện cần thiết cho quá trình sản xuất."
+              }
+              ]
+          },
+          {
+"id": "invoices",
+"label": "19. Invoices",
+"cards": [
+{
+"word": "charge",
+"pos": "(n/v)",
+"pronunciation": "/tʃɑːrdʒ/",
+"hint": "The supplier will ______ an additional fee for express delivery.",
+"meaning": "Phí, khoản tiền phải trả; tính phí",
+"syn": "fee, cost, bill",
+"exEn": "The supplier will charge an additional fee for express delivery.",
+"exVi": "Nhà cung cấp sẽ tính thêm phí cho dịch vụ giao hàng nhanh."
+},
+{
+"word": "compile",
+"pos": "(v)",
+"pronunciation": "/kəmˈpaɪl/",
+"hint": "The accountant will ______ all invoices at the end of the month.",
+"meaning": "Tổng hợp, biên soạn, tập hợp",
+"syn": "assemble, collect, gather",
+"exEn": "The accountant will compile all invoices at the end of the month.",
+"exVi": "Kế toán sẽ tổng hợp tất cả hóa đơn vào cuối tháng."
+},
+{
+"word": "customer",
+"pos": "(n)",
+"pronunciation": "/ˈkʌstəmər/",
+"hint": "Each ______ will receive an invoice after placing an order.",
+"meaning": "Khách hàng",
+"syn": "client, buyer, purchaser",
+"exEn": "Each customer will receive an invoice after placing an order.",
+"exVi": "Mỗi khách hàng sẽ nhận được hóa đơn sau khi đặt hàng."
+},
+{
+"word": "discount",
+"pos": "(n/v)",
+"pronunciation": "/ˈdɪskaʊnt/",
+"hint": "The supplier offered a 10 percent ______ on bulk purchases.",
+"meaning": "Khoản giảm giá; giảm giá",
+"syn": "reduction, price cut, markdown",
+"exEn": "The supplier offered a 10 percent discount on bulk purchases.",
+"exVi": "Nhà cung cấp đưa ra mức giảm giá 10 phần trăm cho các đơn mua số lượng lớn."
+},
+{
+"word": "efficient",
+"pos": "(adj)",
+"pronunciation": "/ɪˈfɪʃənt/",
+"hint": "The new billing system is more ______ than the old one.",
+"meaning": "Hiệu quả, có năng suất cao",
+"syn": "productive, effective, capable",
+"exEn": "The new billing system is more efficient than the old one.",
+"exVi": "Hệ thống lập hóa đơn mới hiệu quả hơn hệ thống cũ."
+},
+{
+"word": "estimate",
+"pos": "(n/v)",
+"pronunciation": "/ˈestɪmət/ (n), /ˈestɪmeɪt/ (v)",
+"hint": "Could you ______ the total cost before preparing the invoice?",
+"meaning": "Ước tính; bản dự toán",
+"syn": "approximate, calculate, assess",
+"exEn": "Could you estimate the total cost before preparing the invoice?",
+"exVi": "Bạn có thể ước tính tổng chi phí trước khi lập hóa đơn không?"
+},
+{
+"word": "impose",
+"pos": "(v)",
+"pronunciation": "/ɪmˈpoʊz/",
+"hint": "The company may ______ a late payment fee on overdue accounts.",
+"meaning": "Áp đặt, áp dụng (phí, thuế, quy định)",
+"syn": "levy, enforce, apply",
+"exEn": "The company may impose a late payment fee on overdue accounts.",
+"exVi": "Công ty có thể áp dụng phí thanh toán trễ đối với các khoản nợ quá hạn."
+},
+{
+"word": "mistake",
+"pos": "(n)",
+"pronunciation": "/mɪˈsteɪk/",
+"hint": "There was a ______ in the total amount shown on the invoice.",
+"meaning": "Lỗi, sai sót",
+"syn": "error, inaccuracy, oversight",
+"exEn": "There was a mistake in the total amount shown on the invoice.",
+"exVi": "Có một sai sót trong tổng số tiền ghi trên hóa đơn."
+},
+{
+"word": "order",
+"pos": "(n/v)",
+"pronunciation": "/ˈɔːrdər/",
+"hint": "Please check the invoice against the original purchase ______.",
+"meaning": "Đơn đặt hàng; đặt hàng",
+"syn": "request, purchase, command",
+"exEn": "Please check the invoice against the original purchase order.",
+"exVi": "Vui lòng đối chiếu hóa đơn với đơn đặt hàng ban đầu."
+},
+{
+"word": "promptly",
+"pos": "(adv)",
+"pronunciation": "/ˈprɑːmptli/",
+"hint": "All invoices must be paid ______ to avoid late fees.",
+"meaning": "Ngay lập tức, nhanh chóng, đúng hạn",
+"syn": "quickly, immediately, without delay",
+"exEn": "All invoices must be paid promptly to avoid late fees.",
+"exVi": "Tất cả hóa đơn phải được thanh toán đúng hạn để tránh phí trả chậm."
+},
+{
+"word": "rectify",
+"pos": "(v)",
+"pronunciation": "/ˈrektɪfaɪ/",
+"hint": "The accounting department will ______ the billing error.",
+"meaning": "Sửa chữa, khắc phục sai sót",
+"syn": "correct, fix, remedy",
+"exEn": "The accounting department will rectify the billing error immediately.",
+"exVi": "Bộ phận kế toán sẽ sửa sai sót trong hóa đơn ngay lập tức."
+},
+{
+"word": "terms",
+"pos": "(n, plural)",
+"pronunciation": "/tɜːrmz/",
+"hint": "Please review the payment ______ listed on the invoice.",
+"meaning": "Các điều khoản, điều kiện",
+"syn": "conditions, provisions, stipulations",
+"exEn": "Please review the payment terms listed on the invoice.",
+"exVi": "Vui lòng xem lại các điều khoản thanh toán được ghi trên hóa đơn."
+}
+]
+},
+          {
+          "id": "inventory",
+          "label": "20. Inventory",
+          "cards": [
+              {
+              "word": "adjustment",
+              "pos": "(n)",
+              "pronunciation": "/əˈdʒʌstmənt/",
+              "hint": "The accountant made an ______ to the inventory records.",
+              "meaning": "Sự điều chỉnh, khoản điều chỉnh",
+              "syn": "modification, correction, change",
+              "exEn": "The accountant made an adjustment to the inventory records after discovering an error.",
+              "exVi": "Kế toán đã điều chỉnh hồ sơ hàng tồn kho sau khi phát hiện một lỗi."
+              },
+              {
+              "word": "automatically",
+              "pos": "(adv)",
+              "pronunciation": "/ˌɔːtəˈmætɪkli/",
+              "hint": "The computer system ______ updates the inventory after each sale.",
+              "meaning": "Một cách tự động",
+              "syn": "mechanically, electronically, without manual intervention",
+              "exEn": "The computer system automatically updates the inventory after each sale.",
+              "exVi": "Hệ thống máy tính tự động cập nhật hàng tồn kho sau mỗi lần bán hàng."
+              },
+              {
+              "word": "crucial",
+              "pos": "(adj)",
+              "pronunciation": "/ˈkruːʃəl/",
+              "hint": "Accurate inventory records are ______ for efficient warehouse management.",
+              "meaning": "Cực kỳ quan trọng, thiết yếu",
+              "syn": "essential, vital, critical",
+              "exEn": "Accurate inventory records are crucial for efficient warehouse management.",
+              "exVi": "Hồ sơ hàng tồn kho chính xác đóng vai trò cực kỳ quan trọng trong việc quản lý kho hiệu quả."
+              },
+              {
+              "word": "discrepancy",
+              "pos": "(n)",
+              "pronunciation": "/dɪˈskrepənsi/",
+              "hint": "The manager noticed a ______ between the actual stock and the recorded quantity.",
+              "meaning": "Sự khác biệt, sự chênh lệch, sai lệch",
+              "syn": "difference, inconsistency, variation",
+              "exEn": "The manager noticed a discrepancy between the actual stock and the recorded quantity.",
+              "exVi": "Người quản lý nhận thấy sự chênh lệch giữa lượng hàng thực tế và số lượng được ghi nhận."
+              },
+              {
+              "word": "disturb",
+              "pos": "(v)",
+              "pronunciation": "/dɪˈstɜːrb/",
+              "hint": "Please do not ______ the warehouse staff while they are conducting the inventory count.",
+              "meaning": "Làm phiền, quấy rầy, làm gián đoạn",
+              "syn": "interrupt, bother, disrupt",
+              "exEn": "Please do not disturb the warehouse staff while they are conducting the inventory count.",
+              "exVi": "Vui lòng không làm phiền nhân viên kho khi họ đang tiến hành kiểm kê hàng tồn kho."
+              },
+              {
+              "word": "liability",
+              "pos": "(n)",
+              "pronunciation": "/ˌlaɪəˈbɪləti/",
+              "hint": "Damaged inventory may become a financial ______ for the company.",
+              "meaning": "Trách nhiệm pháp lý; khoản nợ, nghĩa vụ tài chính",
+              "syn": "obligation, debt, responsibility",
+              "exEn": "Damaged inventory may become a financial liability for the company.",
+              "exVi": "Hàng tồn kho bị hư hỏng có thể trở thành một khoản tổn thất hoặc nghĩa vụ tài chính đối với công ty."
+              },
+              {
+              "word": "reflection",
+              "pos": "(n)",
+              "pronunciation": "/rɪˈflekʃən/",
+              "hint": "The inventory report is a ______ of the company's current stock levels.",
+              "meaning": "Sự phản ánh; sự suy ngẫm",
+              "syn": "representation, indication, expression",
+              "exEn": "The inventory report is an accurate reflection of the company's current stock levels.",
+              "exVi": "Báo cáo hàng tồn kho phản ánh chính xác mức tồn kho hiện tại của công ty."
+              },
+              {
+              "word": "run",
+              "pos": "(v)",
+              "pronunciation": "/rʌn/",
+              "hint": "The warehouse manager will ______ an inventory report at the end of the day.",
+              "meaning": "Chạy, vận hành; thực hiện (một chương trình hoặc báo cáo)",
+              "syn": "operate, execute, conduct",
+              "exEn": "The warehouse manager will run an inventory report at the end of the day.",
+              "exVi": "Quản lý kho sẽ chạy báo cáo hàng tồn kho vào cuối ngày."
+              },
+              {
+              "word": "scan",
+              "pos": "(v)",
+              "pronunciation": "/skæn/",
+              "hint": "Employees use handheld devices to ______ the barcodes on products.",
+              "meaning": "Quét, rà soát",
+              "syn": "read, examine, inspect",
+              "exEn": "Employees use handheld devices to scan the barcodes on products.",
+              "exVi": "Nhân viên sử dụng thiết bị cầm tay để quét mã vạch trên sản phẩm."
+              },
+              {
+              "word": "subtract",
+              "pos": "(v)",
+              "pronunciation": "/səbˈtrækt/",
+              "hint": "You must ______ the number of items sold from the initial inventory count.",
+              "meaning": "Trừ, khấu trừ",
+              "syn": "deduct, take away, remove",
+              "exEn": "You must subtract the number of items sold from the initial inventory count.",
+              "exVi": "Bạn phải trừ số lượng mặt hàng đã bán khỏi số lượng hàng tồn kho ban đầu."
+              },
+              {
+              "word": "tedious",
+              "pos": "(adj)",
+              "pronunciation": "/ˈtiːdiəs/",
+              "hint": "Manually counting thousands of products can be a ______ task.",
+              "meaning": "Tẻ nhạt, nhàm chán, tốn công sức",
+              "syn": "boring, tiresome, monotonous",
+              "exEn": "Manually counting thousands of products can be a tedious task.",
+              "exVi": "Việc đếm thủ công hàng nghìn sản phẩm có thể là một công việc tẻ nhạt và tốn nhiều công sức."
+              },
+              {
+              "word": "verify",
+              "pos": "(v)",
+              "pronunciation": "/ˈverɪfaɪ/",
+              "hint": "Employees must ______ the stock quantities before submitting the report.",
+              "meaning": "Xác minh, kiểm tra tính chính xác",
+              "syn": "confirm, check, validate",
+              "exEn": "Employees must verify the stock quantities before submitting the report.",
+              "exVi": "Nhân viên phải xác minh số lượng hàng tồn kho trước khi nộp báo cáo."
+              }
+              ]
+          }
+
       ]
     },
     {
